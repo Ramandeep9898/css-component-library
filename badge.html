@@ -66,10 +66,10 @@
             <h1 class="component-navbar-heading">Components</h1>
             <ui>
                 <li class="component-navbar-item">
-                    <a href="#" class="component-navbar-item-link">Avatar</a>
+                    <a href="avatar.html" class="component-navbar-item-link">avatar</a>
                 </li>
                 <li class="component-navbar-item">
-                    <a href="badge.html" class="component-navbar-item-link">badge</a>
+                    <a href="#" class="component-navbar-item-link">badge</a>
                 </li>
                 <li class="component-navbar-item">
                     <a href="#" class="component-navbar-item-link">Alert</a>
@@ -95,19 +95,39 @@
             </ui>
         </section>
         <section class="component-doc">
-            <h1 class="component-doc-no">01</h1>
-            <h1 class="component-navbar-heading">avatar</h1>
-            <h3 class="component-navbar-item">In computing, an avatar
-                 (also known as a profile picture or userpic) 
-                 is a graphical representation of a user or the
-                  user's character or persona.</h3>
+            <h1 class="component-doc-no">02</h1>
+            <h1 class="component-navbar-heading">badge</h1>
+            <h3 class="component-navbar-item">Badges are used to highlight an item's status for quick recognition.</h3>
+
+            <!-- avatar  -->
             <div class="component-avatar flex flex-nowrap flex-centre">
-                
-                <img src="images/60111.jpg" alt="" class="avatar avatar-xl">
-                <img src="images/60111.jpg" alt="" class="avatar avatar-l">
-                <img src="images/60111.jpg" alt="" class="avatar avatar-md"> 
-                <img src="images/60111.jpg" alt="" class="avatar avatar-s"> 
+                <span class="badge badge-success">success</span>
+                <span class="badge badge-error">error</span>
+                <span class="badge badge-warning">warning</span>
+                <span class="badge badge-info">info</span>
             </div>
+
+            <!-- /* badge on avatar online, ofline, ddnd */ -->
+            <div class="component-avatar flex flex-nowrap flex-centre">
+                <div class="badge-on-avatar">
+                    <img src="images/60111.jpg" alt="" class="avatar avatar-s"> 
+                    <span class="badge-span badge-online"></span>
+                </div>
+                <div class="badge-on-avatar">
+                    <img src="images/60111.jpg" alt="" class="avatar avatar-md"> 
+                    <span class="badge-span badge-offline"></span>
+                </div>
+                <div class="badge-on-avatar">
+                    <img src="images/60111.jpg" alt="" class="avatar avatar-l">
+                    <span class="badge-span badge-dnd"></span>
+                </div>
+               
+            </div>
+
+            
+           
+            
+
         </section>
         <section class="on-this-page">
             <h1 class="component-navbar-heading">on this page</h1>
