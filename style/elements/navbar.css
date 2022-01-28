@@ -1,0 +1,33 @@
+.navbar{
+    padding: 25px 80px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navbar-logo{
+    background-image: url(../../logo/lightning64px.png);
+    background-repeat: no-repeat ;
+    width: 70px;
+    height: 70px;
+}
+.navbar-list{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    text-transform: capitalize;
+    color: var(--sec-dark-purple);
+    font-size: var(--navbar20);
+    line-height: 12px;
+    font-family: "sofia-pro",sans-serif;
+    font-weight: 500;
+}
+.icons{
+    width: 24px;
+    height: 24px;
+    color: var(--icons-grey);
+}
+.navbar-list-item:hover{
+    color: var(--primary-yellow);
+}

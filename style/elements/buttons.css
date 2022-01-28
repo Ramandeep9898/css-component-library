@@ -1,0 +1,22 @@
+.btn-div{
+    margin-top: 10px;
+}
+.cta-btn{
+    background-color: var(--lightmode-bg-color);
+    padding: 8px 16px;
+    font-size: var(--cta-btn-font-size);
+    border: 1px solid var(--primary-yellow);
+    box-shadow: var(--btn-box-shadow);
+    margin-left: 10px;
+}
+.cta-btn-link{
+    color: var(--primary-yellow);
+}
+.btn2{
+    background-color: var(--primary-yellow);
+    color: var(--lightmode-bg-color);
+
+}
+.cta-btn:hover{
+    box-shadow: var(--btn-box-shadow-onhover);
+}

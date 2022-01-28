@@ -1,0 +1,28 @@
+.main-heading{
+    margin-top: 100px;
+    text-align: center;
+}
+.main-heading-logo{
+    background-image: url(../../logo/lightning64px.png);
+    background-repeat: no-repeat ;
+    width: 70px;
+    height: 70px;
+}
+.main-heading-title{
+    font-family: "Recoleta-light";
+    font-size: var(--title);
+    font-weight: 500;
+    color: var(--sec-dark-purple);
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+.main-heading-subtitle{
+    font-family: "Recoleta-light";
+    font-size: var(--subtitle);
+    font-weight: 400;
+    color: var(--sec-dark-purple);
+    text-align: center;
+}

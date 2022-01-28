@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border-radius:var(--border-radius) ;
+    text-transform: capitalize;
+    background-color: var(--lightmode-bg-color);
+    text-decoration: none;
+}
+@font-face {
+    font-family: "Recoleta";
+    src: url("../../fonts/5fc4e5f7211f779cde7e6408_Recoleta.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Recoleta-light";
+    src: url("../../fonts/5fc4e564f7e15521768fa57f_font.woff") format("woff");
+}
+@font-face {
+    font-family: "sofia-pro-light";
+    src: url("../../fonts/pe03MImSLYBIv1o4X1M8cc8WAc5tU1E.woff2") format("woff2");
+}
+@font-face {
+    font-family: "sofia-pro";
+    src: url("../../fonts/pe0qMImSLYBIv1o4X1M8cce9I9s.woff2") format("woff2");
+}
+@font-face {
+    font-family: "Recoleta-lightest";
+    src: url("../../fonts/5fc4e543666dc00d38298255_font\ \(1\).woff") format("woff");
+}

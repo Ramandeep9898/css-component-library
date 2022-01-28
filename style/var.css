@@ -1,0 +1,20 @@
+:root {
+    --primary-yellow:#FFC850;
+    --lightmode-bg-color:#FFF;
+    --sec-dark-purple: #654F7D;
+    --sec-light-purple: #7E66A0;
+    --icons-grey: #707070;
+
+    --navbar20:18px;
+
+    --border-radius: 8px;
+
+    --title: 48px;
+    --subtitle: 20px;
+
+    --cta-btn-font-size: 16px;
+
+    --btn-box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+    --btn-box-shadow-onhover: 0 2px 4px -1px rgb(0 0 0 / 20%), 0 4px 5px 0 rgb(0 0 0 / 14%), 0 1px 10px 0 rgb(0 0 0 / 12%);
+
+}  
