@@ -1,0 +1,19 @@
+.doc{
+    display: flex;
+    flex-direction: row;
+}
+.component-doc{
+    max-width: 800px;    
+    margin: 10px 30.5px 0 30.5px ;
+
+
+}
+.component-doc-no{
+    font-size: var(--doc-no-size);
+    color: var(--primary-yellow);
+    font-family: "sofia-pro-light";
+    font-weight: 500;
+}
+.on-this-page{
+    margin: 25px 30.5px 0 61px ;
+}

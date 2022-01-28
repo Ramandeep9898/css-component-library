@@ -5,6 +5,7 @@
     text-transform: capitalize;
     background-color: var(--lightmode-bg-color);
     text-decoration: none;
+    list-style: none;
 }
 @font-face {
     font-family: "Recoleta";

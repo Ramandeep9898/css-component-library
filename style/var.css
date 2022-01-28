@@ -4,6 +4,7 @@
     --sec-dark-purple: #654F7D;
     --sec-light-purple: #7E66A0;
     --icons-grey: #707070;
+    --hr-color:rgba(126, 102, 160,0.5);
 
     --navbar20:18px;
 
@@ -11,6 +12,9 @@
 
     --title: 48px;
     --subtitle: 20px;
+    --side-navbar-heading:36px;
+    --side-navbar-subheading:20px;
+    --doc-no-size:100px;
 
     --cta-btn-font-size: 16px;
 
