@@ -1,0 +1,24 @@
+.component-avatar{
+    margin-top: 2.5rem;
+    gap: 0.625rem;
+}
+.avatar{
+    border-radius: 50%;
+    object-fit: cover;
+}
+.avatar-xl{
+    width: 5.5rem;
+    height: 5.5rem;
+}
+.avatar-l{
+    width: 4.5rem;
+    height: 4.5rem;
+}
+.avatar-md{
+    width: 4rem;
+    height: 4rem;
+}
+.avatar-s{
+    width: 3rem;
+    height: 3rem;
+}
