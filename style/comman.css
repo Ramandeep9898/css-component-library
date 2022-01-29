@@ -13,6 +13,9 @@
 .flex-nowrap{
     flex-wrap: nowrap;
 }
+.f-col{
+    flex-direction: column;
+}
 .flex-centre{
     align-items: center;
   justify-content: center;
