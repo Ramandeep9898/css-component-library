@@ -42,13 +42,6 @@
     margin: 25px 30.5px 0 61px ;
 
 }
-.component-navbar-heading{
-    font-size: var(--side-navbar-heading);
-    color: var(--sec-dark-purple);
-    font-family: "Recoleta-light";
-    font-weight: 200;
-    margin-bottom: 16px;
-}
 .component-navbar-item{
     font-size: var(--side-navbar-subheading);
     font-family: "Sofia-pro";
