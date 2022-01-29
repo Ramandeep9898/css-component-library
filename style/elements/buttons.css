@@ -1,22 +1,55 @@
 .btn-div{
     margin-top: 10px;
 }
-.cta-btn{
-    background-color: var(--lightmode-bg-color);
+.btn{
     padding: 8px 16px;
     font-size: var(--cta-btn-font-size);
-    border: 1px solid var(--primary-yellow);
+    border: none;
     box-shadow: var(--btn-box-shadow);
     margin-left: 10px;
-}
-.cta-btn-link{
-    color: var(--primary-yellow);
-}
-.btn2{
-    background-color: var(--primary-yellow);
     color: var(--lightmode-bg-color);
 
 }
-.cta-btn:hover{
+.btn-link {
+    color: var(--primary-yellow);
+
+}
+.solid-pri-btn{
+    background-color: var(--primary-yellow);
+    color: var(--lightmode-bg-color);
+
+
+}
+.solid-sec-btn{
+    background-color:var(--sec-light-purple);
+}
+.solid-delete-btn{
+    background-color: #ef4444;  
+}
+.btn:hover{
     box-shadow: var(--btn-box-shadow-onhover);
+}
+.btn-pri-outlined{
+    color: var(--primary-yellow);
+    border: 1px solid var(--primary-yellow);
+}
+.btn-sec-outlined{
+    color: var(--sec-dark-purple);
+    border: 1px solid var(--sec-dark-purple);
+}
+.btn-del-outlined{
+    color: #ef4444;
+    border: 1px solid #ef4444;
+}
+.Icon{
+    background-color: transparent;
+}
+.Floating-btn{
+    width: 50px;
+    height: 50px;
+    
+    color: var(--sec-dark-purple);
+    border: 1px solid var(--sec-dark-purple);
+    border-radius: 50%;
+
 }
