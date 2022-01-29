@@ -41,3 +41,9 @@
     font-family: "Recoleta-lightest";
     src: url("../../fonts/5fc4e543666dc00d38298255_font\ \(1\).woff") format("woff");
 }
+.mg-16{
+    margin: 16px 0;
+}
+.mg-top20{
+    margin-top: 20px;
+}

@@ -40,6 +40,7 @@
 
 .component-navbar{
     margin: 25px 30.5px 0 61px ;
+    width: 253px;
 
 }
 .component-navbar-item{
@@ -48,17 +49,13 @@
     font-weight: 200;
     color: var(--sec-light-purple);
     margin-bottom: 8px;
+    /* width: 253px; */
 }
 .component-navbar-item-link{
     color: var(--sec-light-purple);
 }
-.hr-sidebar{
-    border-top: 1px solid var(--hr-color);
-    border-left: none;
-    border-right: none;
-    border-bottom: none;
-    width: 253px;
-    margin: 16px 0 8px 0;  
+.line-hori{
+    border-bottom: 1px solid var(--hr-color);
 }
 .component-navbar-item-link:hover{
     color: var(--primary-yellow);
