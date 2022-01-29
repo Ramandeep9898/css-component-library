@@ -47,3 +47,8 @@
 .mg-top20{
     margin-top: 20px;
 }
+.postion{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
