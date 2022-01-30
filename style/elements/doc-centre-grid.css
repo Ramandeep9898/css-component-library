@@ -1,12 +1,14 @@
 .doc{
     display: flex;
-    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    align-items: stretch;
+    /* position: relative; */
 }
 .component-doc{
     width: 800px;    
-    margin: 10px 30.5px 0 30.5px ;
-
-
+    height: 100vh;
+    
 }
 .component-doc-no{
     font-size: var(--doc-no-size);
@@ -15,5 +17,8 @@
     font-weight: 500;
 }
 .on-this-page{
-    margin: 25px 30.5px 0 61px ;
+    min-width: 250px;
+    height: 100vh;
+
+    /* margin: 25px 30.5px 0 61px ; */
 }

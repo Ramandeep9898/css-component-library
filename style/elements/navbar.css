@@ -1,3 +1,9 @@
+.sticky{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  
+}
 .navbar{
     padding: 25px 80px;
     display: flex;
@@ -39,9 +45,24 @@
 /* documentation page side sidebar */
 
 .component-navbar{
-    margin: 25px 30.5px 0 61px ;
-    width: 253px;
+    margin-left: 20px;
+    min-width: 250px;
+    height: 100vh;
+}
+.sidebar{
+    position: fixed;
+   
+    margin-left: 20px;
+    min-width: 250px;
+    height: 100vh;
 
+}
+.on-this-page-bar{
+    position: fixed;
+    top: 150px;
+    right: 30px;
+    min-width: 250px;
+    height: 100vh;
 }
 .component-navbar-item{
     font-size: var(--side-navbar-subheading);
@@ -49,7 +70,6 @@
     font-weight: 200;
     color: var(--sec-light-purple);
     margin-bottom: 8px;
-    /* width: 253px; */
 }
 .component-navbar-item-link{
     color: var(--sec-light-purple);
