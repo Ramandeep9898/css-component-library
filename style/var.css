@@ -2,10 +2,13 @@
     --primary-yellow:#FFC850;
     --primary-yellow-op01:rgba(255, 200, 80,0.1);
     --lightmode-bg-color:#FFF;
-    --sec-dark-purple: #544268;
-    --sec-light-purple: #7E66A0;
+    --sec-dark-purple: #3B294F;
+    --sec-light-purple: #4B336D;
+    --sec-lightest-purple: #886dad;
     --icons-grey: #707070;
     --hr-color:rgba(126, 102, 160,0.5);
+    --suc-green:rgb(2, 126, 56);
+    --suc-greeno01:rgb(2, 126, 56);
 
     --navbar20:18px;
 

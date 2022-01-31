@@ -7,7 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="main.css">
     <script src="https://kit.fontawesome.com/86189ed851.js" crossorigin="anonymous"></script>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/github-dark.min.css" integrity="sha512-rO+olRTkcf304DQBxSWxln8JXCzTHlKnIdnMUwYvQa9/Jd4cQaNkItIUj6Z4nvW1dqK0SKXLbn9h4KwZTNtAyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
 </head>
 <body>
     <!-- header  navbar-->
@@ -58,6 +58,47 @@
         </ol>
     </nav>
 
+    <!-- phone navbar  -->
+    <nav class="phone-navbar sticky flex flex-centre">
+        <a href="index.html">
+            <img class="phone-navbar-logo" src="logo/lightning64px.png" alt="">
+        </a>
+        <div class="phone-nav-list flex ">          
+                <li class=" icons">
+                    <i class="fas fa-moon"></i>
+                </li>
+                <button class=" bar-icon">
+                    <i class="fas fa-bars icons"></i>
+                </button>   
+        </div>
+        <div class="phone-nav-body flex f-col flex-centre">
+        
+            <a href="#">
+                <li class="component-navbar-item">Avatar</li>
+            </a>
+            <a href="badge.html">
+                <li class="component-navbar-item">badge</li>
+            </a>
+            <a href="badge.html">
+                <li class="component-navbar-item">Alert</li>
+            </a>
+            <a href="badge.html">
+                <li class="component-navbar-item">button</li>
+            </a>
+            <a href="badge.html">
+                <li class="component-navbar-item">card</li>
+            </a>
+            <a href="badge.html">
+                <li class="component-navbar-item">images</li>
+            </a>
+            <a href="badge.html">
+                <li class="component-navbar-item">input</li>
+            </a>
+        
+    </div>
+    </nav>
+    
+
     <!-- documentation page  -->
     <section class="doc">
 
@@ -65,40 +106,34 @@
         <section class="component-navbar ">
             <div class="sidebar">
                 <h1 class="component-navbar-heading">Getting Started</h1>
-                <li class="component-navbar-item">
-                    <a href="#" class="component-navbar-item-link">usage</a>
-                </li>
+                <a href="#">
+                    <li class="component-navbar-item">usage</li>
+                </a>
                 <div class="line-hori side mg-16"></div>
                 
                 <h1 class="component-navbar-heading">Components</h1>
                 <ul>
-                    <li class="component-navbar-item">
-                        <a href="avatar.html" class="component-navbar-item-link">Avatar</a>
-                    </li>
-                    <li class="component-navbar-item">
-                        <a href="badge.html" class="component-navbar-item-link">badge</a>
-                    </li>
-                    <li class="component-navbar-item">
-                        <a href="alert.html" class="component-navbar-item-link">Alert</a>
-                    </li>
-                    <li class="component-navbar-item">
-                        <a href="button.html" class="component-navbar-item-link">button</a>
-                    </li>
-                    <li class="component-navbar-item">
-                        <a href="cards.html" class="component-navbar-item-link">card</a>
-                    </li>
-                    <li class="component-navbar-item">
-                        <a href="#" class="component-navbar-item-link">images</a>
-                    </li>
-                    <li class="component-navbar-item">
-                        <a href="input.html" class="component-navbar-item-link">input</a>
-                    </li>
-                    <li class="component-navbar-item">
-                        <a href="#" class="component-navbar-item-link">Alert</a>
-                    </li>
-                    
-                    
-                
+                    <a href="#">
+                        <li class="component-navbar-item">Avatar</li>
+                    </a>
+                    <a href="badge.html">
+                        <li class="component-navbar-item">badge</li>
+                    </a>
+                    <a href="badge.html">
+                        <li class="component-navbar-item">Alert</li>
+                    </a>
+                    <a href="badge.html">
+                        <li class="component-navbar-item">button</li>
+                    </a>
+                    <a href="badge.html">
+                        <li class="component-navbar-item">card</li>
+                    </a>
+                    <a href="badge.html">
+                        <li class="component-navbar-item">images</li>
+                    </a>
+                    <a href="badge.html">
+                        <li class="component-navbar-item">input</li>
+                    </a>
                 </ul>
             </div>
         </section>
@@ -106,30 +141,59 @@
         <!-- centre documentation -->
         <section class="component-doc">
             <h1 class="component-doc-no">01</h1>
-            <h2 class="component-navbar-heading">standard avatar</h2>
+            <h2  id="standard-avatar" class="component-navbar-heading">standard avatar</h2>
             <h3 class="component-navbar-item">The avatar component has 5 sizes, avatar-xl (4em), avatar-lg (3em), avatar-std (2em) avatar-sm (1.5em), and avatar-xs (1em)..</h3>
+            
+            <!-- standard-avatar -->
             <div class="component-avatar flex flex-nowrap flex-centre">
                 
                 <img src="images/60111.jpg" alt="" class="avatar avatar-xl">
                 <img src="images/60111.jpg" alt="" class="avatar avatar-l">
                 <img src="images/60111.jpg" alt="" class="avatar avatar-md"> 
                 <img src="images/60111.jpg" alt="" class="avatar avatar-s"> 
+
             </div>
 
-            <div class="line-hori"></div>
+            <!-- show-code-btn -->
+            <button class="show-code">show code &lt;/> </button>
+
+            <!-- code-snippet  -->
+            <div class="code-snippets">
+
+                <pre>
+                    <code class="language-html bg">
+                &lt;img src="..." alt="..." class="avatar avatar-xl"&gt;
+                &lt;img src="..." alt="..." class="avatar avatar-l"&gt;
+                &lt;img src="..." alt="..." class="avatar avatar-md"&gt; 
+                &lt;img src="..." alt="..." class="avatar avatar-s"&gt; 
+                    </code>
+                </pre>
+
+            </div>
+            
+        <div class="line-hori"></div>
+
+        <!-- next-btn  -->
+        <a href="badge.html " class="flex f-end">
+            <button class="next-btn flex f-end">next ></button>
+        </a>
 
         </section>
+
         <!-- on this page  -->
         <section class="on-this-page">
             <div class="on-this-page-bar">
             <h1 class="component-navbar-heading">on this page</h1>
-            <li class="component-navbar-item">
-                <a href="#" class="component-navbar-item-link">standard avatar</a>
-            </div>
+            <a href="#standard-avatar">
+                <li class="component-navbar-item">standard Avatar</li>
+            </a>
         </section>
-        
-
-        
+           
     </section>    
+
+    <script src="main.js"></script>
+    <!-- highlight.js -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
 </body>
 </html>

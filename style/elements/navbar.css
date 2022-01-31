@@ -1,3 +1,4 @@
+/* header navbar  */
 .sticky{
     position: sticky;
     top: 0;
@@ -5,11 +6,13 @@
   
 }
 .navbar{
+    background-color: var(--lightmode-bg-color);
     padding: 25px 80px;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-between;
+    
 }
 .navbar-logo{
     background-image: url(../../logo/lightning64px.png);
@@ -41,6 +44,91 @@
 .navbar-list-item:hover{
     color: var(--primary-yellow);
 }
+/* media queries of header navbar */
+.phone-navbar{
+    display: none;
+  }
+@media screen and (max-width: 600px) {
+    .navbar{
+        display: none;
+    }
+    .phone-navbar{
+        display: flex;
+        padding: 10px;
+        width: 100vw;
+        height: 80px;
+        border-radius: 0px;
+        background-color: var(--lightmode-bg-color);
+        justify-content: space-between;
+        flex-wrap: wrap;
+        /* position: sticky; */
+      }
+      .phone-navbar-logo{
+          width: 40px;
+          height: 40px;
+      }
+      .phone-nav-body{
+          width: 100vw;
+          height: 80vh;
+          background-color: var(--lightmode-bg-color);
+          border-radius: 0px;
+      }
+      .bar-icon{
+          border: none;
+          background-color: var(--lightmode-bg-color);
+      }
+}
+@media screen and (max-width: 900px) {
+    .navbar{
+        display: none;
+    }
+    .phone-navbar{
+        display: flex;
+        padding: 10px;
+        width: 100vw;
+        height: 80px;
+        border-radius: 0px;
+        background-color: var(--lightmode-bg-color);
+        justify-content: space-between;
+        flex-wrap: wrap;
+        /* position: sticky; */
+      }
+      .phone-navbar-logo{
+          width: 40px;
+          height: 40px;
+      }
+      .phone-nav-body{
+          width: 100vw;
+          height: 80vh;
+          background-color: var(--lightmode-bg-color);
+          border-radius: 0px;
+      }
+      .bar-icon{
+          border: none;
+          background-color: var(--lightmode-bg-color);
+      }
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .component-doc{
+        margin: 20px;
+        white-space: normal;
+        min-width: 300px !important;
+    }
+}
+@media screen and (max-width: 900px) {
+    .component-doc{
+        margin: 20px;
+        white-space: normal;
+        min-width: 300px !important;
+    }
+}
+    
+
+
+
 
 /* documentation page side sidebar */
 
@@ -57,6 +145,20 @@
     height: 100vh;
 
 }
+
+@media screen and (max-width: 600px) {
+    .component-navbar{
+        display: none;
+        
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    .component-navbar{
+        display: none;
+        
+    }
+}
 .on-this-page-bar{
     position: fixed;
     top: 150px;
@@ -71,12 +173,21 @@
     color: var(--sec-light-purple);
     margin-bottom: 8px;
 }
-.component-navbar-item-link{
-    color: var(--sec-light-purple);
-}
 .line-hori{
     border-bottom: 1px solid var(--hr-color);
 }
 .component-navbar-item-link:hover{
     color: var(--primary-yellow);
 }
+@media screen and (max-width: 600px) {
+    .on-this-page{
+        display: none;
+        
+    }
+  }
+  @media screen and (max-width: 900px) {
+    .on-this-page{
+        display: none;
+        
+    }
+  }
