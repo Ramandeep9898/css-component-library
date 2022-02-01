@@ -10,19 +10,19 @@
 }
 .badge-success{
     color: #fff;
-    background-color: #38a169;
+    background-color: var(--suc-green);
 }
 .badge-error{
     color: #fff;
-    background-color: #e53e3e;
+    background-color: var(--alert-red);
 }
 .badge-warning{
     color: #fff;
-    background-color: #dd6b20;
+    background-color: var(--primary-yellow);
 }
 .badge-info{
     color: #fff;
-    background-color: #3182ce;
+    background-color: var(--info-blue);
 }
 /* badge on avatar */
 .badge-on-avatar{

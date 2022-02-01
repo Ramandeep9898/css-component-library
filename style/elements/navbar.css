@@ -3,16 +3,12 @@
     position: sticky;
     top: 0;
     z-index: 1;
-  
 }
 .navbar{
     background-color: var(--lightmode-bg-color);
     padding: 25px 80px;
-    display: flex;
-    flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-between;
-    
 }
 .navbar-logo{
     background-image: url(../../logo/lightning64px.png);
@@ -34,7 +30,6 @@
 }
 .navbar-list-item{
     color: var(--sec-dark-purple);
-
 }
 .icons{
     width: 24px;
@@ -44,10 +39,11 @@
 .navbar-list-item:hover{
     color: var(--primary-yellow);
 }
+
 /* media queries of header navbar */
 .phone-navbar{
     display: none;
-  }
+}
 @media screen and (max-width: 600px) {
     .navbar{
         display: none;
@@ -61,7 +57,6 @@
         background-color: var(--lightmode-bg-color);
         justify-content: space-between;
         flex-wrap: wrap;
-        /* position: sticky; */
       }
       .phone-navbar-logo{
           width: 40px;
@@ -91,7 +86,6 @@
         background-color: var(--lightmode-bg-color);
         justify-content: space-between;
         flex-wrap: wrap;
-        /* position: sticky; */
       }
       .phone-navbar-logo{
           width: 40px;
@@ -109,61 +103,36 @@
       }
 }
 
-
-
-@media screen and (max-width: 600px) {
-    .component-doc{
-        margin: 20px;
-        white-space: normal;
-        min-width: 300px !important;
-    }
-}
-@media screen and (max-width: 900px) {
-    .component-doc{
-        margin: 20px;
-        white-space: normal;
-        min-width: 300px !important;
-    }
-}
-    
-
-
-
-
-/* documentation page side sidebar */
-
+/*  side sidebar */
 .component-navbar{
-    margin-left: 20px;
-    min-width: 250px;
+    margin: 20px 0px 0 70px;
     height: 100vh;
+    width: 20%;
 }
 .sidebar{
     position: fixed;
-   
-    margin-left: 20px;
-    min-width: 250px;
     height: 100vh;
-
 }
 
 @media screen and (max-width: 600px) {
     .component-navbar{
-        display: none;
-        
+        display: none;       
     }
   }
 
   @media screen and (max-width: 900px) {
     .component-navbar{
-        display: none;
-        
+        display: none;       
     }
+}
+
+/* on this page  */
+.on-this-page{
+    width: 20%;
+    margin: 20px 70px 0 0;
 }
 .on-this-page-bar{
     position: fixed;
-    top: 150px;
-    right: 30px;
-    min-width: 250px;
     height: 100vh;
 }
 .component-navbar-item{
@@ -181,13 +150,11 @@
 }
 @media screen and (max-width: 600px) {
     .on-this-page{
-        display: none;
-        
+        display: none;        
     }
   }
-  @media screen and (max-width: 900px) {
+@media screen and (max-width: 900px) {
     .on-this-page{
         display: none;
-        
     }
-  }
+}

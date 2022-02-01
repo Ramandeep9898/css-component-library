@@ -7,11 +7,13 @@
     <title>Document</title>
     <link rel="stylesheet" href="main.css">
     <script src="https://kit.fontawesome.com/86189ed851.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/86189ed851.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/github-dark.min.css" integrity="sha512-rO+olRTkcf304DQBxSWxln8JXCzTHlKnIdnMUwYvQa9/Jd4cQaNkItIUj6Z4nvW1dqK0SKXLbn9h4KwZTNtAyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
 
 </head>
 <body>
     <!-- header  navbar-->
-    <nav class="navbar sticky">
+    <nav class="navbar flex flex-nowrap sticky">
         <a href="#">
             <div class="navbar-logo"></div>
         </a>
@@ -58,46 +60,80 @@
         </ol>
     </nav>
 
-    <section class="doc">
+    <!-- phone navbar  -->
+    <nav class="phone-navbar sticky flex flex-centre">
+        <a href="index.html">
+            <img class="phone-navbar-logo" src="logo/lightning64px.png" alt="">
+        </a>
+        <div class="phone-nav-list flex ">          
+                <li class=" icons">
+                    <i class="fas fa-moon"></i>
+                </li>
+                <button class=" bar-icon">
+                    <i class="fas fa-bars icons"></i>
+                </button>   
+        </div>
+        <div class="phone-nav-body flex f-col flex-centre">
+        
+            <a href="#">
+                <li class="component-navbar-item">Avatar</li>
+            </a>
+            <a href="badge.html">
+                <li class="component-navbar-item">badge</li>
+            </a>
+            <a href="alert.html">
+                <li class="component-navbar-item">Alert</li>
+            </a>
+            <a href="#">
+                <li class="component-navbar-item">button</li>
+            </a>
+            <a href="cards.html">
+                <li class="component-navbar-item">card</li>
+            </a>
+            <a href="images.html">
+                <li class="component-navbar-item">images</li>
+            </a>
+            <a href="input.html">
+                <li class="component-navbar-item">input</li>
+            </a>
+        
+    </div>
+    </nav>
+
+    <section class="doc flex  ">
 
         <!-- sidebar -->
         <section class="component-navbar ">
             <div class="sidebar">
                 <h1 class="component-navbar-heading">Getting Started</h1>
-                <li class="component-navbar-item">
-                    <a href="#" class="component-navbar-item-link">usage</a>
-                </li>
+                <a href="#">
+                    <li class="component-navbar-item">usage</li>
+                </a>
                 <div class="line-hori side mg-16"></div>
                 
                 <h1 class="component-navbar-heading">Components</h1>
                 <ul>
-                    <li class="component-navbar-item">
-                        <a href="avatar.html" class="component-navbar-item-link">Avatar</a>
-                    </li>
-                    <li class="component-navbar-item">
-                        <a href="badge.html" class="component-navbar-item-link">badge</a>
-                    </li>
-                    <li class="component-navbar-item">
-                        <a href="alert.html" class="component-navbar-item-link">Alert</a>
-                    </li>
-                    <li class="component-navbar-item">
-                        <a href="#" class="component-navbar-item-link">button</a>
-                    </li>
-                    <li class="component-navbar-item">
-                        <a href="cards.html" class="component-navbar-item-link">card</a>
-                    </li>
-                    <li class="component-navbar-item">
-                        <a href="images.html" class="component-navbar-item-link">images</a>
-                    </li>
-                    <li class="component-navbar-item">
-                        <a href="input.html" class="component-navbar-item-link">input</a>
-                    </li>
-                    <li class="component-navbar-item">
-                        <a href="#" class="component-navbar-item-link">Alert</a>
-                    </li>
-                    
-                    
-                
+                    <a href="avatar.html">
+                        <li class="component-navbar-item">Avatar</li>
+                    </a>
+                    <a href="badge.html">
+                        <li class="component-navbar-item">badge</li>
+                    </a>
+                    <a href="alert.html">
+                        <li class="component-navbar-item">Alert</li>
+                    </a>
+                    <a href="#">
+                        <li class="component-navbar-item">button</li>
+                    </a>
+                    <a href="cards.html">
+                        <li class="component-navbar-item">card</li>
+                    </a>
+                    <a href="images.html">
+                        <li class="component-navbar-item">images</li>
+                    </a>
+                    <a href="input.html">
+                        <li class="component-navbar-item">input</li>
+                    </a>
                 </ul>
             </div>
         </section>
@@ -118,7 +154,20 @@
                 <button class="btn solid-sec-btn">secondary</button>
                 <button class="btn solid-delete-btn">delete</button>
             </div>
-            <div class="line-hori side "></div>
+            
+            <!-- show-code-btn -->
+            <button class="show-code">show code &lt;/> </button>
+
+            <!-- code-snippet  -->
+            <div class="code-snippets">
+                <pre>
+                    <code class="language-html ">&lt;button class="btn solid-pri-btn">...&lt;/button&gt;
+&lt;button class="btn solid-sec-btn">...&lt;/button&gt;
+&lt;button class="btn solid-delete-btn">...&lt;/button&gt;</code>
+                </pre>
+            </div>
+   
+            <div class="line-hori"></div>
             
             <!-- outlined buttons -->
             <h1 class="component-navbar-heading mg-top20">outlined buttons</h1>
@@ -132,8 +181,18 @@
                 <button class="btn btn-sec-outlined">secondary</button>
                 <button class="btn btn-del-outlined">delete</button>
             </div>
-            <div class="line-hori side "></div>
 
+            <!-- show-code-btn -->
+            <button class="show-code">show code &lt;/> </button>
+
+            <!-- code-snippet  -->
+            <div class="code-snippets">
+                <pre><code class="language-html ">&lt;button class="btn btn-pri-outlined"&gt;Primary&lt;/button&gt;
+&lt;button class="btn btn-sec-outlined"&gt;secondary&lt;/button&gt;
+&lt;button class="btn btn-del-outlined"&gt;delete&lt;/button&gt;</code>
+                </pre>
+            </div>
+            <div class="line-hori"></div>
 
             <!-- link button  -->
             <h1 class="component-navbar-heading mg-top20">link button</h1>
@@ -150,7 +209,21 @@
                 <button class="btn btn-pri-outlined">link</button>
                </a>
             </div>
-            <div class="line-hori side "></div>
+
+            <!-- show-code-btn -->
+            <button class="show-code">show code &lt;/> </button>
+
+            <!-- code-snippet  -->
+            <div class="code-snippets">
+                <pre><code class="language-html ">&lt;a href="..."&gt;
+    &lt;button class="btn solid-pri-btn">link&lt;/button>&gt;
+&lt;/a&gt;
+&lt;a href="..."&gt;
+    &lt;button class="btn btn-pri-outlined">link&lt;/button>&gt;
+&lt;/a&gt;</code>
+                </pre>
+            </div>
+            <div class="line-hori"></div>
 
 
             <!--icon button  -->
@@ -169,7 +242,22 @@
                     <i class="fas fa-fighter-jet Icon"></i>
                  </button>
             </div>
-            <div class="line-hori side "></div>
+            <!-- show-code-btn -->
+            <button class="show-code">show code &lt;/> </button>
+
+            <!-- code-snippet  -->
+            <div class="code-snippets">
+                <pre><code class="language-html ">
+&lt;button class="btn solid-pri-btn"&gt;
+    Primary
+    &lt;i class="... Icon"&gt;&lt;/i&gt;
+&lt;/button&gt;
+&lt;button class="btn btn-sec-outlined"&gt;secondary
+    &lt;i class="... Icon"&gt;&lt;/i&gt;
+ &lt;/button&gt;</code>
+                </pre>
+            </div>
+            <div class="line-hori"></div>
 
             <!-- Floating-btn  -->
             <h1 class="component-navbar-heading mg-top20">Floating button </h1>
@@ -191,26 +279,31 @@
         </section>
 
         <!-- on this page  -->
-        <section class="on-this-page">
+        <section class="on-this-page flex f-end">
             <div class="on-this-page-bar">
                 <h1 class="component-navbar-heading">on this page</h1>
-                <li class="component-navbar-item">
-                    <a href="#" class="component-navbar-item-link">Primary</a>
-                </li>
-                <li class="component-navbar-item">
-                    <a href="#" class="component-navbar-item-link">Link</a>
-                </li>
-                <li class="component-navbar-item">
-                    <a href="#" class="component-navbar-item-link">Icon Button</a>
-                </li>
-                <li class="component-navbar-item">
-                    <a href="#" class="component-navbar-item-link">Floating Action Button</a>
-                </li>
+                <a href="#standard-avatar">
+                    <li class="component-navbar-item">Primary</li>
+                </a>
+                <a href="#standard-avatar">
+                    <li class="component-navbar-item">Link</li>
+                </a>
+                <a href="#standard-avatar">
+                    <li class="component-navbar-item">Icon Button</li>
+                </a>
+                <a href="#standard-avatar">
+                    <li class="component-navbar-item">Floating Action Button</li>
+                </a>
             </div>
         </section>
         
 
         
-    </section>    
+    </section> 
+    
+    <script src="main.js"></script>
+    <!-- highlight.js -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
 </body>
 </html>

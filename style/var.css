@@ -1,3 +1,18 @@
+html{
+    font-size: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    html{
+        font-size: 62.5%;
+    }
+  }
+@media screen and (max-width: 900px) {
+    html{
+        font-size: 100%;
+    }
+  }
+
 :root {
     --primary-yellow:#FFC850;
     --primary-yellow-op01:rgba(255, 200, 80,0.1);
@@ -8,21 +23,25 @@
     --icons-grey: #707070;
     --hr-color:rgba(126, 102, 160,0.5);
     --suc-green:rgb(2, 126, 56);
-    --suc-greeno01:rgb(2, 126, 56);
+    --suc-greeno01:rgb(2, 126, 56,0.1);
+    --info-blue:#446fcb;
+    --info-blueo01: rgba(68, 111, 203,0.1);
+    --alert-red: #ca3535;
+    --alert-redo01:rgba(202, 53, 53,0.1);
+    
+    --navbar20:1.25rem;
 
-    --navbar20:18px;
+    --border-radius: 0.5rem;
 
-    --border-radius: 8px;
+    --title: 3rem;
+    --subtitle: 1.25rem;
+    --side-navbar-heading: 1.5rem;
+    --side-navbar-subheading:1.125rem;
+    --doc-no-size:4rem;
 
-    --title: 48px;
-    --subtitle: 20px;
-    --side-navbar-heading:24px;
-    --side-navbar-subheading:18px;
-    --doc-no-size:64px;
+    --padding-act-comp-box:50rem;
 
-    --padding-act-comp-box:800px;
-
-    --cta-btn-font-size: 16px;
+    --cta-btn-font-size: 1rem;
 
     --btn-box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
     --btn-box-shadow-onhover: 0 2px 4px -1px rgb(0 0 0 / 20%), 0 4px 5px 0 rgb(0 0 0 / 14%), 0 1px 10px 0 rgb(0 0 0 / 12%);
