@@ -3,8 +3,28 @@
     padding: 0px;
     border-radius:var(--border-radius) ;
     text-transform: capitalize;
-    background-color: var(--lightmode-bg-color);
+    /* background-color: var(--lightmode-bg-color); */
     text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+}
+.flex-nowrap{
+    flex-wrap: nowrap;
+}
+.f-col{
+    flex-direction: column;
+}
+.flex-centre{
+    align-items: center;
+  justify-content: center;
+}
+.f-end{
+    /* align-content: center; */
+  justify-content: flex-end;
+
 }
 @font-face {
     font-family: "Recoleta";
@@ -26,4 +46,21 @@
 @font-face {
     font-family: "Recoleta-lightest";
     src: url("../../fonts/5fc4e543666dc00d38298255_font\ \(1\).woff") format("woff");
+}
+.mg-16{
+    margin: 16px 0;
+}
+.mg-top20{
+    margin-top: 20px;
+}
+.mg-top40{
+    margin-top: 40px;
+}
+.postion{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.bg{
+    background-color: transparent;
 }

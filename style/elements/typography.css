@@ -26,3 +26,11 @@
     color: var(--sec-dark-purple);
     text-align: center;
 }
+/* sidebar  */
+.component-navbar-heading{
+    font-size: var(--side-navbar-heading);
+    color: var(--sec-dark-purple);
+    font-family: "Recoleta-light";
+    font-weight: 400;
+    margin-bottom: 8px;
+}

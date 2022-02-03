@@ -1,0 +1,33 @@
+.doc{
+    justify-content: space-between;
+    flex-flow: row wrap;
+    align-items: stretch;
+    column-gap: 8px;
+}
+.component-doc{
+    width: 42%;
+}
+.component-doc-no{
+    font-size: var(--doc-no-size);
+    color: var(--primary-yellow);
+    font-family: "sofia-pro-light";
+    font-weight: 500;
+}
+
+
+@media screen and (max-width: 900px) {
+    .component-doc{
+        margin: 20px;
+        white-space: normal;
+        width: 95%;
+        
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .component-doc{
+        margin: 10px;
+        white-space: normal;
+        width: 95%;
+    }
+}

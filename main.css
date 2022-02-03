@@ -3,3 +3,10 @@
 @import url(style/elements/navbar.css);
 @import url(style/elements/typography.css);
 @import url(style/elements/buttons.css);
+@import url(style/elements/doc-centre-grid.css);
+@import url(style/components/avatar.css);
+@import url(style/components/badge.css);
+@import url(style/components/alert.css);
+@import url(style/components/cards.css);
+@import url(style/components/images.css);
+@import url(style/components/input.css);
