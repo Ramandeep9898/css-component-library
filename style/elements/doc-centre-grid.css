@@ -1,14 +1,11 @@
 .doc{
-    display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-flow: row wrap;
     align-items: stretch;
-    /* position: relative; */
+    column-gap: 8px;
 }
 .component-doc{
-    width: 800px;    
-    height: 100vh;
-    
+    width: 42%;
 }
 .component-doc-no{
     font-size: var(--doc-no-size);
@@ -16,9 +13,21 @@
     font-family: "sofia-pro-light";
     font-weight: 500;
 }
-.on-this-page{
-    min-width: 250px;
-    height: 100vh;
 
-    /* margin: 25px 30.5px 0 61px ; */
+
+@media screen and (max-width: 900px) {
+    .component-doc{
+        margin: 20px;
+        white-space: normal;
+        width: 95%;
+        
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .component-doc{
+        margin: 10px;
+        white-space: normal;
+        width: 95%;
+    }
 }

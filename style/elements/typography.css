@@ -30,7 +30,7 @@
 .component-navbar-heading{
     font-size: var(--side-navbar-heading);
     color: var(--sec-dark-purple);
-    font-family: "Recoleta-lightest";
-    font-weight: 200;
+    font-family: "Recoleta-light";
+    font-weight: 400;
     margin-bottom: 8px;
 }

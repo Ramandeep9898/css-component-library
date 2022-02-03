@@ -1,13 +1,12 @@
+/* header navbar  */
 .sticky{
     position: sticky;
     top: 0;
     z-index: 1;
-  
 }
 .navbar{
+    background-color: var(--lightmode-bg-color);
     padding: 25px 80px;
-    display: flex;
-    flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-between;
 }
@@ -31,7 +30,6 @@
 }
 .navbar-list-item{
     color: var(--sec-dark-purple);
-
 }
 .icons{
     width: 24px;
@@ -42,26 +40,99 @@
     color: var(--primary-yellow);
 }
 
-/* documentation page side sidebar */
+/* media queries of header navbar */
+.phone-navbar{
+    display: none;
+}
+@media screen and (max-width: 600px) {
+    .navbar{
+        display: none;
+    }
+    .phone-navbar{
+        display: flex;
+        padding: 10px;
+        width: 100vw;
+        height: 80px;
+        border-radius: 0px;
+        background-color: var(--lightmode-bg-color);
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+      .phone-navbar-logo{
+          width: 40px;
+          height: 40px;
+      }
+      .phone-nav-body{
+          width: 100vw;
+          height: 80vh;
+          background-color: var(--lightmode-bg-color);
+          border-radius: 0px;
+      }
+      .bar-icon{
+          border: none;
+          background-color: var(--lightmode-bg-color);
+      }
+}
+@media screen and (max-width: 900px) {
+    .navbar{
+        display: none;
+    }
+    .phone-navbar{
+        display: flex;
+        padding: 10px;
+        width: 100vw;
+        height: 80px;
+        border-radius: 0px;
+        background-color: var(--lightmode-bg-color);
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+      .phone-navbar-logo{
+          width: 40px;
+          height: 40px;
+      }
+      .phone-nav-body{
+          width: 100vw;
+          height: 80vh;
+          background-color: var(--lightmode-bg-color);
+          border-radius: 0px;
+      }
+      .bar-icon{
+          border: none;
+          background-color: var(--lightmode-bg-color);
+      }
+}
 
+/*  side sidebar */
 .component-navbar{
-    margin-left: 20px;
-    min-width: 250px;
+    margin: 20px 0px 0 70px;
     height: 100vh;
+    width: 20%;
 }
 .sidebar{
     position: fixed;
-   
-    margin-left: 20px;
-    min-width: 250px;
     height: 100vh;
+}
 
+@media screen and (max-width: 600px) {
+    .component-navbar{
+        display: none;       
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    .component-navbar{
+        display: none;       
+    }
+}
+
+/* on this page  */
+.on-this-page{
+    width: 20%;
+    margin: 20px 70px 0 0;
 }
 .on-this-page-bar{
     position: fixed;
-    top: 150px;
-    right: 30px;
-    min-width: 250px;
     height: 100vh;
 }
 .component-navbar-item{
@@ -71,12 +142,19 @@
     color: var(--sec-light-purple);
     margin-bottom: 8px;
 }
-.component-navbar-item-link{
-    color: var(--sec-light-purple);
-}
 .line-hori{
     border-bottom: 1px solid var(--hr-color);
 }
 .component-navbar-item-link:hover{
     color: var(--primary-yellow);
+}
+@media screen and (max-width: 600px) {
+    .on-this-page{
+        display: none;        
+    }
+  }
+@media screen and (max-width: 900px) {
+    .on-this-page{
+        display: none;
+    }
 }

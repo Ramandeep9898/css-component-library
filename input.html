@@ -60,52 +60,51 @@
         </ol>
     </nav>
 
-    <!-- phone navbar  -->
-    <nav class="phone-navbar sticky flex flex-centre">
-        <a href="index.html">
-            <img class="phone-navbar-logo" src="logo/lightning64px.png" alt="">
-        </a>
-        <div class="phone-nav-list flex ">          
-                <li class=" icons">
-                    <i class="fas fa-moon"></i>
-                </li>
-                <button class=" bar-icon">
-                    <i class="fas fa-bars icons"></i>
-                </button>   
-        </div>
-        <div class="phone-nav-body flex f-col flex-centre">
-        
-            <a href="#">
-                <li class="component-navbar-item">Avatar</li>
-            </a>
-            <a href="badge.html">
-                <li class="component-navbar-item">badge</li>
-            </a>
-            <a href="alert.html">
-                <li class="component-navbar-item">Alert</li>
-            </a>
-            <a href="button.html">
-                <li class="component-navbar-item">button</li>
-            </a>
-            <a href="cards.html">
-                <li class="component-navbar-item">card</li>
-            </a>
-            <a href="images.html">
-                <li class="component-navbar-item">images</li>
-            </a>
-            <a href="input.html">
-                <li class="component-navbar-item">input</li>
-            </a>
-        
+<!-- phone navbar  -->
+<nav class="phone-navbar sticky flex flex-centre">
+    <a href="index.html">
+        <img class="phone-navbar-logo" src="logo/lightning64px.png" alt="">
+    </a>
+    <div class="phone-nav-list flex ">          
+            <li class=" icons">
+                <i class="fas fa-moon"></i>
+            </li>
+            <button class=" bar-icon">
+                <i class="fas fa-bars icons"></i>
+            </button>   
     </div>
-    </nav>
+    <div class="phone-nav-body flex f-col flex-centre">
     
+        <a href="avatar.html">
+            <li class="component-navbar-item">Avatar</li>
+        </a>
+        <a href="badge.html">
+            <li class="component-navbar-item">badge</li>
+        </a>
+        <a href="alert.html">
+            <li class="component-navbar-item">Alert</li>
+        </a>
+        <a href="button.html">
+            <li class="component-navbar-item">button</li>
+        </a>
+        <a href="cards.html">
+            <li class="component-navbar-item">card</li>
+        </a>
+        <a href="images.html">
+            <li class="component-navbar-item">images</li>
+        </a>
+        <a href="input.html">
+            <li class="component-navbar-item">input</li>
+        </a>
+    
+</div>
+</nav>
 
     <!-- documentation page  -->
-    <section class="doc flex ">
+    <section class="doc flex">
 
-         <!-- sidebar -->
-         <section class="component-navbar ">
+        <!-- sidebar -->
+        <section class="component-navbar ">
             <div class="sidebar">
                 <h1 class="component-navbar-heading">Getting Started</h1>
                 <a href="#">
@@ -130,10 +129,10 @@
                     <a href="cards.html">
                         <li class="component-navbar-item">card</li>
                     </a>
-                    <a href="#">
+                    <a href="images.html">
                         <li class="component-navbar-item">images</li>
                     </a>
-                    <a href="input.html">
+                    <a href="#">
                         <li class="component-navbar-item">input</li>
                     </a>
                 </ul>
@@ -142,20 +141,20 @@
 
         <!-- centre documentation  -->
         <section class="component-doc">
-            <h1 class="component-doc-no">06</h1>
+            <h1 class="component-doc-no">07</h1>
 
-            <!-- square image-->
-            <h1 class="component-navbar-heading">square image</h1>
+            <!-- text box -->
+            <h1 class="component-navbar-heading">text box</h1>
             <h3 class="component-navbar-item">In computing, an avatar
                  (also known as a profile picture or userpic) 
                  is a graphical representation of a user or the
                   user's character or persona.</h3>
 
             <div class="component-avatar flex flex-nowrap flex-centre">
-                <img src="images/60111.jpg" alt="" class="avatar avatar-xl sq-avatar">
-                <img src="images/60111.jpg" alt="" class="avatar avatar-l sq-avatar">
-                <img src="images/60111.jpg" alt="" class="avatar avatar-md sq-avatar"> 
-                <img src="images/60111.jpg" alt="" class="avatar avatar-s sq-avatar"> 
+              
+                    <textarea class="textarea" placeholder="Please provide your feedback.">
+                    </textarea>
+               
                 
             </div>
             
@@ -166,80 +165,109 @@
             <div class="code-snippets">
 
                 <pre>
-                    <code class="language-html ">&lt;img src="..." alt="..." class="avatar avatar-xl  sq-avatar"&gt;
-&lt;img src="..." alt="..." class="avatar avatar-l  sq-avatar"&gt;
-&lt;img src="..." alt="..." class="avatar avatar-md  sq-avatar"&gt; 
-&lt;img src="..." alt="..." class="avatar avatar-s sq-avatar"&gt;</code>
+                    <code class="language-html ">&lt;textarea class="textarea"&gt;&lt;/textarea&gt;</code>
                 </pre>
 
             </div>
+            
         <div class="line-hori"></div>
 
-
-            <!-- responsive image-->
-            <h1 class="component-navbar-heading mg-top20">responsive image</h1>
+            <!-- input form -->
+            <h1 class="component-navbar-heading mg-top20">input form</h1>
             <h3 class="component-navbar-item">In computing, an avatar
                  (also known as a profile picture or userpic) 
                  is a graphical representation of a user or the
                   user's character or persona.</h3>
 
-            <div class="component-avatar flex flex-nowrap flex-centre">
-                <div class="img-container">
-                    <img src="images/60111.jpg" alt="" class="respo-img">
-                 </div>
+            <div class="component-avatar flex flex-nowrap f-col">
+               <div class="input-box">
+                    <label for="text" class="textarea-label" >user name</label>
+                    <input id="email" type="email" class="input" placeholder="user name" valide>
+                </div>
                 
+                <div class="input-box">
+                    <label for="email" class="textarea-label" >email id</label>
+                    <input id="email" type="email" class="input error-input" placeholder="you@example.com" valide>
+                    <div class="textarea-label error-msg">Please enter correct email</div>
+                </div>   
+                
+                <div class="input-box">
+                    <label for="email" class="textarea-label" >password</label>
+                    <input id="email" type="password" class="input war-input" placeholder="password" valide>
+                    <div class="textarea-label war-msg">Please enter strong password</div>
+                </div> 
+                    
+                <div class="input-box">
+                    <label for="email" class="textarea-label" >confirm password</label>
+                    <input id="email" type="password" class="input confirm-input" placeholder="confirm password" valide>
+                    <div class="textarea-label confirm-msg">Password matched</div>
+                </div> 
             </div>
+           
             <!-- show-code-btn -->
             <button class="show-code">show code &lt;/> </button>
 
             <!-- code-snippet  -->
             <div class="code-snippets">
+
                 <pre>
-                    <code class="language-html ">&lt;div class="img-container"&gt;
-    &lt;img src="images/60111.jpg" alt="" class="respo-img"&gt;
-&lt;/div&gt;</code>
+                    <code class="language-html ">&lt;div class="input-box"&gt;
+    &lt;label for="text" class="textarea-label" >user name&lt;/label&gt;
+    &lt;input id="email" type="email" class="input" placeholder="user name" valide&gt;
+&lt;/div&gt;
+
+&lt;div class="input-box"&gt;
+    &lt;label for="email" class="textarea-label" >email id&lt;/label&gt;
+    &lt;input id="email" type="email" class="input error-input" placeholder="you@example.com" valide&gt;
+    &lt;div class="textarea-label error-msg"&gt;Please enter correct email&lt;/div&gt;
+&lt;/div&gt;   
+
+&lt;div class="input-box"&gt;
+    &lt;label for="email" class="textarea-label" >password&lt;/label&gt;
+    &lt;input id="email" type="password" class="input war-input" placeholder="password" valide&gt;
+    &lt;div class="textarea-label war-msg">Please enter strong password&lt;/div&gt;
+&lt;/div> 
+    
+&lt;div class="input-box"&gt;
+    &lt;label for="email" class="textarea-label" >confirm password&lt;/label&gt;
+    &lt;input id="email" type="password" class="input confirm-input" placeholder="confirm password" valide&gt;
+    &lt;div class="textarea-label confirm-msg">Password matched&lt;/div&gt;
+&lt;/div&gt; </code>
                 </pre>
 
             </div>
-
+            
         <div class="line-hori"></div>
-
-
-            <!-- perve-next btns  -->
+        <!-- perve-next btns  -->
         <div class="next-prev-btns flex ">
-            <a href="cards.html" >
+            <a href="images.html" >
                 <button class="next-btn ">
-                    <i class="fas fa-angle-left"></i> cards
+                    <i class="fas fa-angle-left"></i> images
                 </button>
             </a>
-            <a href="input.html" >
-                <button class="next-btn ">input <i class="fas fa-angle-right"></i>
+            <a href="#" >
+                <button class="next-btn ">... <i class="fas fa-angle-right"></i>
                 </button>
             </a>
         </div>
+        </section>
         
 
-        </section>
-
-        <!-- on this page  -->
+          <!-- on this page  -->
         <section class="on-this-page flex f-end flex-nowrap">
             <div class="on-this-page-bar ">
                 <h1 class="component-navbar-heading">on this page</h1>
                 <a href="#standard-avatar">
-                    <li class="component-navbar-item">square images</li>
+                    <li class="component-navbar-item">text area</li>
                 </a>
-
                 <a href="#standard-avatar">
-                    <li class="component-navbar-item">responsive image</li>
+                    <li class="component-navbar-item">label input</li>
                 </a>
-                
             </div>
         </section>
 
-        
+    </section>    
 
-    </section>  
-    
     <script src="main.js"></script>
     <!-- highlight.js -->
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
