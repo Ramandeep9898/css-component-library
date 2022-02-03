@@ -30,3 +30,6 @@
 .sq-avatar{
     border-radius: 8px;
 }
+.component-avatar::-webkit-scrollbar {
+    display: none;
+}

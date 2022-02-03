@@ -4,6 +4,7 @@
     text-align: center;
     box-shadow: var(--btn-box-shadow);
     position: relative;
+    background-color: var(--lightmode-bg-color);
 
 }
 .card-img{

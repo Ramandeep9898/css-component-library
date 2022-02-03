@@ -2,6 +2,7 @@
     margin-top: 10px;
 }
 .btn{
+    background-color: var(--lightmode-bg-color);
     padding: 8px 16px;
     font-size: var(--cta-btn-font-size);
     border: none;
@@ -26,6 +27,7 @@
     box-shadow: var(--btn-box-shadow-onhover);
 }
 .btn-pri-outlined{
+    
     color: var(--primary-yellow);
     border: 1px solid var(--primary-yellow);
 }
@@ -48,6 +50,7 @@
     border-radius: 50%;
 
 }
+
 /* code show btn  */
 .show-code{
     border: none;
@@ -62,6 +65,7 @@
     font-size: 17px;
     margin-bottom: 20px; 
 }
+
 /* next-btn  */
 .next-btn{
     margin: 10px;
@@ -70,10 +74,14 @@
     background-color: var(--lightmode-bg-color);
     color: var(--sec-dark-purple);
     font-size: var(--side-navbar-subheading);
+    font-family: "sofia-pro";
     font-weight: 500;
 }
 .next-btn:hover{
     background-color: var(--sec-lightest-purple);
     color: var(--lightmode-bg-color);
 
+}
+.next-prev-btns{
+    justify-content: space-between;
 }
