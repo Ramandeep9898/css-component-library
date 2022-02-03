@@ -1,0 +1,51 @@
+.textarea{
+    border: 2px solid rgba(128, 128, 128, 0.8);
+    padding: 1rem;
+    box-shadow: var(--btn-box-shadow);
+    min-width: 100%;
+    min-height: 120px;
+    background-color: #fff;
+}
+.textarea-label{
+    color: rgba(128, 128, 128,0.8);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    margin: 4px;
+}
+.input{
+    border: 2px solid rgba(128, 128, 128,0.8);
+    padding: 8px;
+    font-size: 16px;
+    outline: none;
+    min-width: 100%;
+}
+.input:focus{
+    border: 1px solid var(--sec-dark-purple);
+}
+.form-btn{
+    margin-top: 20px;
+    text-align: end;
+}
+.input-box{
+    display: flex;
+    flex-direction: column;
+}
+.error-input{
+    border: 2px solid var(--alert-red);
+}
+.error-msg{
+    color: var(--alert-red);
+}
+.war-input{
+    border: 2px solid var(--primary-yellow);
+}
+.war-msg{
+    color: var(--primary-yellow);
+}
+.confirm-input{
+    border: 2px solid var(--suc-green);
+}
+.confirm-msg{
+    color: var(--suc-green);
+}
