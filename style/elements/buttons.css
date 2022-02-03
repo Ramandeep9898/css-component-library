@@ -1,22 +1,87 @@
 .btn-div{
     margin-top: 10px;
 }
-.cta-btn{
+.btn{
     background-color: var(--lightmode-bg-color);
     padding: 8px 16px;
     font-size: var(--cta-btn-font-size);
-    border: 1px solid var(--primary-yellow);
+    border: none;
     box-shadow: var(--btn-box-shadow);
     margin-left: 10px;
+    color: var(--lightmode-bg-color);
 }
-.cta-btn-link{
+.btn-link {
     color: var(--primary-yellow);
 }
-.btn2{
+.solid-pri-btn{
     background-color: var(--primary-yellow);
+    color: var(--lightmode-bg-color);
+}
+.solid-sec-btn{
+    background-color:var(--sec-light-purple);
+}
+.solid-delete-btn{
+    background-color: #ef4444;  
+}
+.btn:hover{
+    box-shadow: var(--btn-box-shadow-onhover);
+}
+.btn-pri-outlined{
+    
+    color: var(--primary-yellow);
+    border: 1px solid var(--primary-yellow);
+}
+.btn-sec-outlined{
+    color: var(--sec-dark-purple);
+    border: 1px solid var(--sec-dark-purple);
+}
+.btn-del-outlined{
+    color: #ef4444;
+    border: 1px solid #ef4444;
+}
+.Icon{
+    background-color: transparent;
+}
+.Floating-btn{
+    width: 50px;
+    height: 50px;
+    color: var(--sec-dark-purple);
+    border: 1px solid var(--sec-dark-purple);
+    border-radius: 50%;
+
+}
+
+/* code show btn  */
+.show-code{
+    border: none;
+    padding: 8px 16px;
+    background-color: var(--suc-green);
+    color: var(--lightmode-bg-color);
+    font-size: var(--cta-btn-font-size);
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.code-snippets{
+    font-size: 17px;
+    margin-bottom: 20px; 
+}
+
+/* next-btn  */
+.next-btn{
+    margin: 10px;
+    padding: 8px 16px;
+    border: none; 
+    background-color: var(--lightmode-bg-color);
+    color: var(--sec-dark-purple);
+    font-size: var(--side-navbar-subheading);
+    font-family: "sofia-pro";
+    font-weight: 500;
+}
+.next-btn:hover{
+    background-color: var(--sec-lightest-purple);
     color: var(--lightmode-bg-color);
 
 }
-.cta-btn:hover{
-    box-shadow: var(--btn-box-shadow-onhover);
+.next-prev-btns{
+    justify-content: space-between;
 }

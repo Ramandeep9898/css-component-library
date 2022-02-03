@@ -1,12 +1,11 @@
 .doc{
-    display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    align-items: stretch;
+    column-gap: 8px;
 }
 .component-doc{
-    max-width: 800px;    
-    margin: 10px 30.5px 0 30.5px ;
-
-
+    width: 42%;
 }
 .component-doc-no{
     font-size: var(--doc-no-size);
@@ -14,6 +13,21 @@
     font-family: "sofia-pro-light";
     font-weight: 500;
 }
-.on-this-page{
-    margin: 25px 30.5px 0 61px ;
+
+
+@media screen and (max-width: 900px) {
+    .component-doc{
+        margin: 20px;
+        white-space: normal;
+        width: 95%;
+        
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .component-doc{
+        margin: 10px;
+        white-space: normal;
+        width: 95%;
+    }
 }

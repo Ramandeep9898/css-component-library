@@ -1,9 +1,13 @@
 .component-avatar{
-    margin-top: 2.5rem;
+    margin: 2.5rem 0;
+    padding: 20px;
     gap: 0.625rem;
+    border: 2px solid var(--primary-yellow-op01);
+    max-width: var(--padding-act-comp-box);
+    background-color: var(--primary-yellow-op01);
+    overflow-y: scroll;
 }
 .avatar{
-    
     border-radius: 50%;
     object-fit: cover;
 }
@@ -22,4 +26,10 @@
 .avatar-s{
     width: 3rem;
     height: 3rem;
+}
+.sq-avatar{
+    border-radius: 8px;
+}
+.component-avatar::-webkit-scrollbar {
+    display: none;
 }
