@@ -8,14 +8,17 @@
     border: none;
     box-shadow: var(--btn-box-shadow);
     margin-left: 10px;
+    font-weight: 500;
     color: var(--lightmode-bg-color);
+    cursor: pointer;
 }
 .btn-link {
     color: var(--primary-yellow);
 }
 .solid-pri-btn{
     background-color: var(--primary-yellow);
-    color: var(--lightmode-bg-color);
+    color: #fff;
+
 }
 .solid-sec-btn{
     background-color:var(--sec-light-purple);
