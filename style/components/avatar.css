@@ -4,7 +4,7 @@
     gap: 0.625rem;
     border: 2px solid var(--primary-yellow-op01);
     max-width: var(--padding-act-comp-box);
-    background-color: var(--primary-yellow-op01);
+    /* background-color: var(--primary-yellow-op01) */
     overflow-y: scroll;
 }
 .avatar{

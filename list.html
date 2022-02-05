@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://kit.fontawesome.com/86189ed851.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/github-dark.min.css" integrity="sha512-rO+olRTkcf304DQBxSWxln8JXCzTHlKnIdnMUwYvQa9/Jd4cQaNkItIUj6Z4nvW1dqK0SKXLbn9h4KwZTNtAyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
+
+</head>
+<body>
+
+    <!-- header  navbar-->
+    <nav class="navbar flex flex-nowrap sticky">
+        <a href="#">
+            <div class="navbar-logo"></div>
+        </a>
+        
+        <ol class="navbar-list">
+            <li>
+                <a href="index.html" class="navbar-list-item">home</a>
+            </li>
+
+            <li>
+                <a href="#" class="navbar-list-item">documentation</a>
+            </li>
+
+            <li >
+                <a href="https://github.com/Ramandeep9898" class="navbar-list-item icons">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+
+            <li >
+                <a href="https://www.linkedin.com/in/ramandeep-kaur-0090a8192/" class="navbar-list-item icons"> 
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+
+            <li>
+                    <a href="#" class="navbar-list-item icons">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+            </li>
+
+            <li>
+                <a href="https://twitter.com/Ramande099928" class="navbar-list-item icons">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+
+            <li>
+                <a href="#" class="navbar-list-item icons">
+                    <i class="fas fa-moon"></i>
+                </a>
+            </li>
+
+        </ol>
+    </nav>
+
+    <!-- phone navbar  -->
+    <nav class="phone-navbar sticky flex flex-centre">
+        <a href="index.html">
+            <img class="phone-navbar-logo" src="logo/lightning64px.png" alt="">
+        </a>
+        <div class="phone-nav-list flex ">          
+                <li class=" icons">
+                    <i class="fas fa-moon"></i>
+                </li>
+                <button class=" bar-icon">
+                    <i class="fas fa-bars icons"></i>
+                </button>   
+        </div>
+        <div class="phone-nav-body flex f-col flex-centre">
+        
+            <a href="avatar.html">
+                <li class="component-navbar-item">Avatar</li>
+            </a>
+            <a href="badge.html">
+                <li class="component-navbar-item">badge</li>
+            </a>
+            <a href="alert.html">
+                <li class="component-navbar-item">Alert</li>
+            </a>
+            <a href="button.html">
+                <li class="component-navbar-item">button</li>
+            </a>
+            <a href="cards.html">
+                <li class="component-navbar-item">card</li>
+            </a>
+            <a href="images.html">
+                <li class="component-navbar-item">images</li>
+            </a>
+            <a href="input.html">
+                <li class="component-navbar-item">input</li>
+            </a>
+            <a href="utilities.html">
+                <li class="component-navbar-item">utilities</li>
+            </a>
+            <a href="#">
+                <li class="component-navbar-item">list</li>
+            </a>
+    </div>
+    </nav>
+    <!-- documentation page  -->
+    <section class="doc flex">
+
+        <!-- sidebar -->
+        <section class="component-navbar ">
+            <div class="sidebar">
+                <h1 class="component-navbar-heading">Getting Started</h1>
+                <a href="#">
+                    <li class="component-navbar-item">usage</li>
+                </a>
+                <div class="line-hori side mg-16"></div>
+                
+                <h1 class="component-navbar-heading">Components</h1>
+                <ul>
+                    <a href="avatar.html">
+                        <li class="component-navbar-item">Avatar</li>
+                    </a>
+                    <a href="badge.html">
+                        <li class="component-navbar-item">badge</li>
+                    </a>
+                    <a href="alert.html">
+                        <li class="component-navbar-item">Alert</li>
+                    </a>
+                    <a href="button.html">
+                        <li class="component-navbar-item">button</li>
+                    </a>
+                    <a href="cards.html">
+                        <li class="component-navbar-item">card</li>
+                    </a>
+                    <a href="images.html">
+                        <li class="component-navbar-item">images</li>
+                    </a>
+                    <a href="input.html">
+                        <li class="component-navbar-item">input</li>
+                    </a>
+                    <a href="utilities.html">
+                        <li class="component-navbar-item">utilities</li>
+                    </a>
+                    <a href="#">
+                        <li class="component-navbar-item">list</li>
+                    </a>
+                </ul>
+            </div>
+        </section>
+
+        <!-- centre documentation  -->
+        <section class="component-doc">
+            <h1 class="component-doc-no">09</h1>
+
+            <!--list -->
+            <section id="list">
+            <h1 class="component-navbar-heading ">list</h1>
+            <h3 class="component-navbar-item">The most basic list group is an unordered list with list 
+                items and the proper classes. Build upon it with the options that follow, 
+                or with your own CSS as needed.</h3>
+    
+            <div id="single-lined-list" class="component-avatar flex flex-nowrap f-col">
+               <ul class="list ">
+                   <li class="list-items">Line item</li>
+                   <li class="list-items">Line item</li>
+                   <li class="list-items">Line item</li>
+               </ul>
+            </div>
+           
+            <!-- show-code-btn -->
+            <button class="show-code">show code &lt;/> </button>
+    
+            <!-- code-snippet  -->
+            <div class="code-snippets">
+    
+                <pre>
+                    <code class="language-html ">
+&lt;ul class="list "&gt;
+    &lt;li class="list-items">Line item&lt;/li&gt;
+    &lt;li class="list-items">Line item&lt;/li&gt;
+    &lt;li class="list-items">Line item&lt;/li&gt;
+&lt;/ul&gt;
+                    </code>
+                </pre>
+    
+            </div>
+            </section>
+            <div class="line-hori"></div>
+
+            <!--list with leading icons-->
+            <section id="list-leading-icons">
+
+            <h1 id="list-leading-icons" class="component-navbar-heading mg-16">list with leading icons</h1>
+            <h3 class="component-navbar-item">The most basic list group is an unordered list with list 
+                items and the proper classes. Build upon it with the options that follow, 
+                or with your own CSS as needed.</h3>
+    
+            <div id="single-lined-list" class="component-avatar flex flex-nowrap f-col">
+               <ul class="list">
+                <li class="list-items ">
+                    <span class="list-with-icons">
+                        <i class="fas fa-list-ul"></i>
+                        Line item
+                    </span>   
+                </li><li class="list-items ">
+                    <span class="list-with-icons">
+                        <i class="fas fa-list-ul"></i>
+                        Line item
+                    </span>   
+                </li><li class="list-items ">
+                    <span class="list-with-icons">
+                        <i class="fas fa-list-ul"></i>
+                        Line item
+                    </span>   
+                </li>
+                </ul>
+            </div>
+           
+            <!-- show-code-btn -->
+            <button class="show-code">show code &lt;/> </button>
+    
+            <!-- code-snippet  -->
+            <div class="code-snippets">
+    
+                <pre>
+                    <code class="language-html ">
+&lt;ul class="list"&gt;
+    &lt;li class="list-items "&gt;
+        &lt;span class="list-with-icons"&gt;
+            &lt;i class="fas fa-list-ul"&gt;&lt;/i&gt;
+            Line item
+        &lt;/span&gt;   
+    &lt;/li>&lt;li class="list-items "&gt;
+        &lt;span class="list-with-icons"&gt;
+            &lt;i class="fas fa-list-ul"&gt;&lt;/i&gt;
+            Line item
+        &lt;/span&gt;   
+    &lt;/li>&lt;li class="list-items "&gt;
+        &lt;span class="list-with-icons"&gt;
+            &lt;i class="fas fa-list-ul"&gt;&lt;/i&gt;
+            Line item
+        &lt;/span&gt;   
+    &lt;/li&gt;
+&lt;/ul&gt;
+                    </code>
+                </pre>
+    
+            </div>
+            
+        <div class="line-hori"></div>
+            </section>
+
+            <!--list with check-box-->
+            <section id="list-check-box">
+
+                <h1 id="list-leading-icons" class="component-navbar-heading mg-16">list wit checkbox</h1>
+                <h3 class="component-navbar-item">The most basic list group is an unordered list with list 
+                    items and the proper classes. Build upon it with the options that follow, 
+                    or with your own CSS as needed.</h3>
+        
+                <div id="single-lined-list" class="component-avatar flex flex-nowrap f-col">
+                    <ul class="list ">
+                        <li class="list-items ">
+                            <span class="list-with-icons checkbox">
+                                Line item
+                                <input type="checkbox" class="input-ckeckbox">
+                            </span>
+                        <li class="list-divider"></li>
+                        <li class="list-items ">
+                            <span class="list-with-icons checkbox">
+                                Line item
+                                <input type="checkbox" class="input-ckeckbox">
+                            </span>
+                        <li class="list-divider"></li>
+                        <li class="list-items ">
+                            <span class="list-with-icons checkbox">
+                                Line item
+                                <input type="checkbox" class="input-ckeckbox">
+                            </span>
+                    </ul>
+                </div>
+               
+                <!-- show-code-btn -->
+                <button class="show-code">show code &lt;/> </button>
+        
+                <!-- code-snippet  -->
+                <div class="code-snippets">
+        
+                    <pre>
+                        <code class="language-html ">
+&lt;ul class="list "&gt;
+    &lt;li class="list-items "&gt;
+        &lt;span class="list-with-icons checkbox"&gt;
+            Line item
+            &lt;input type="checkbox" class="input-ckeckbox"&gt;
+        &lt;/span>
+    &lt;li class="list-divider"&gt;&lt;/li&gt;
+    &lt;li class="list-items "&gt;
+        &lt;span class="list-with-icons checkbox"&gt;
+            Line item
+            &lt;input type="checkbox" class="input-ckeckbox"&gt;
+        &lt;/span&gt;
+    &lt;li class="list-divider"&gt;&lt;/li&gt;
+    &lt;li class="list-items "&gt;
+        &lt;span class="list-with-icons checkbox"&gt;
+            Line item
+            &lt;input type="checkbox" class="input-ckeckbox"&gt;
+        &lt;/span&gt;
+&lt;/ul&gt;
+                        </code>
+                    </pre>
+        
+                </div>
+                
+            <div class="line-hori"></div>
+                </section>
+
+            <!--stacked list-->
+            <section id="stacked-list">
+
+                <h1 id="stacked-list" class="component-navbar-heading mg-16">stacked list</h1>
+                <h3 class="component-navbar-item">The most basic list group is an unordered list with list 
+                    items and the proper classes. Build upon it with the options that follow, 
+                    or with your own CSS as needed.</h3>
+        
+                <div id="single-lined-list" class="component-avatar flex flex-nowrap f-col">
+                    <ul class="list ">
+                        <li class="list-items list-width">
+                           Line item
+                            <span class="list-sec-text">secondary text</span>
+                        </li>
+                        <li class="list-items list-width">
+                            Line item
+                            <span class="list-sec-text">secondary text</span>
+                        </li>
+                        <li class="list-items list-width">
+                            Line item
+                            <span class="list-sec-text">secondary text</span>
+                        </li>
+                    </ul>
+                </div>
+               
+                <!-- show-code-btn -->
+                <button class="show-code">show code &lt;/> </button>
+        
+                <!-- code-snippet  -->
+                <div class="code-snippets">
+        
+                    <pre>
+                        <code class="language-html ">
+&lt;ul class="list "&gt;
+    &lt;li class="list-items list-width"&gt;
+       Line item
+        &lt;span class="list-sec-text"&gt;secondary text&lt;/span&gt;
+    &lt;/li>
+    &lt;li class="list-items list-width"&gt;
+        Line item
+        &lt;span class="list-sec-text">secondary text&lt;/span&gt;
+    &lt;/li>
+    &lt;li class="list-items list-width"&gt;
+        Line item
+        &lt;span class="list-sec-text">secondary text&lt;/span&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+                        </code>
+                    </pre>
+        
+                </div>
+                
+            <div class="line-hori"></div>
+                </section>
+
+                <!--stacked nested list-->
+            <!-- <section id="stacked-nested-list">
+
+                <h1 id="stacked-list" class="component-navbar-heading mg-16">stacked nested list</h1>
+                <h3 class="component-navbar-item">The most basic list group is an unordered list with list 
+                    items and the proper classes. Build upon it with the options that follow, 
+                    or with your own CSS as needed.</h3>
+        
+                <div id="single-lined-list" class="component-avatar flex flex-nowrap f-col">
+                    <ul class="list ">
+                        <li class="list-items list-width">
+                           Line item
+                            <span class="list-sec-text">secondary text</span>
+                        </li>
+                        <li class="list-items list-width">
+                            Line item
+                            <span class="list-sec-text">secondary text</span>
+                        </li>
+                        <details class="list-items">
+                            <summary class="list-sum"> Line item</summary>
+                            <div class="content">
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            </div>
+                        </details>
+                    </ul>
+                </div>
+               
+                 show-code-btn -->
+                <!-- <button class="show-code">show code &lt;/> </button> -->
+        
+                <!-- code-snippet  -->
+                <!-- <div class="code-snippets">
+        
+                    <pre>
+                        <code class="language-html ">
+&lt;ul class="list "&gt;
+    &lt;li class="list-items list-width"&gt;
+       Line item
+        &lt;span class="list-sec-text"&gt;secondary text&lt;/span&gt;
+    &lt;/li>
+    &lt;li class="list-items list-width"&gt;
+        Line item
+        &lt;span class="list-sec-text">secondary text&lt;/span&gt;
+    &lt;/li>
+    &lt;li class="list-items list-width"&gt;
+        Line item
+        &lt;span class="list-sec-text">secondary text&lt;/span&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+                        </code>
+                    </pre>
+        
+                </div>
+                
+            <div class="line-hori"></div>
+                </section> -->
+            
+           
+
+        <!-- perve-next btns  -->
+        <div class="next-prev-btns flex ">
+            <a href="input.html" >
+                <button class="next-btn ">
+                    <i class="fas fa-angle-left"></i> input
+                </button>
+            </a>
+            <a href="navigation.html" >
+                <button class="next-btn">navigation <i class="fas fa-angle-right"></i>
+                </button>
+            </a>
+        </div>
+        </section>
+        
+
+          <!-- on this page  -->
+        <section class="on-this-page flex f-end flex-nowrap">
+            <div class="on-this-page-bar ">
+                <h1 class="component-navbar-heading">on this page</h1>
+                <a href="#headings">
+                    <li class="component-navbar-item">heading</li>
+                </a>
+                <a href="#headings-with-gray-text">
+                    <li class="component-navbar-item">headings with colored text</li>
+                </a>
+                <a href="#text-utilities">
+                    <li class="component-navbar-item">text align utilities</li>
+                </a>
+            </div>
+        </section>
+
+    </section>    
+
+    <script src="main.js"></script>
+    <!-- highlight.js -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+</body>
+</html>
