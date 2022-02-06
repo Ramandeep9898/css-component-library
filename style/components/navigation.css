@@ -1,0 +1,29 @@
+.navigation{
+    width: 100%;
+    min-width: 300px;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--sec-dark-purple);
+    color: #fff;
+    padding: 0 20px 0 20px;
+    height: 64px;
+    justify-content: space-between;
+}
+.nav-container-startsec{
+    display: flex;
+    align-items: center;
+}
+.nav-container-startsec > i{
+    margin-right: 32px;
+    color: #fff;
+}
+.nav-title{
+    font-weight: 500;
+}
+.nav-container-endsec{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}

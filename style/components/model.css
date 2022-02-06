@@ -1,0 +1,51 @@
+.model{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0,0.8);
+    border-radius: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3;
+}
+.model-body{
+    width: 50%;
+    padding: 1.25rem;
+    background-color: #fff;
+    color: var(--sec-dark-purple);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(.25);
+    text-align: center;
+    opacity: 0;
+    transition: all .5s .2s;
+}
+.model-body > div{
+    padding: 1rem 0 2.5rem 0;
+}
+.model-cross{
+    position: absolute;
+    top: 10px;
+    right: 1.25rem;
+    line-height: 1;
+    font-size: 2rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.model:target{
+    opacity: 1;
+    visibility: visible;
+
+}
+
+.model:target > .model-body{
+    opacity: 1;
+    visibility: visible;
+    transform: translate(-50%,-50%) scale(1);
+
+
+}
