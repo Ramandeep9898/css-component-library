@@ -63,9 +63,11 @@
     font-size: var(--cta-btn-font-size);
     font-weight: 500;
     margin-bottom: 40px;
+    cursor: pointer;
 }
 .code-snippets{
     margin-bottom: 20px; 
+    display: none;
 }
 
 /* next-btn  */

@@ -160,16 +160,18 @@
             <h1 class="component-doc-no">10</h1>
 
             <!--model -->
-            <section id="model">
+            <section id="model-sec">
             <h1 class="component-navbar-heading ">navigation</h1>
             <h3 class="component-navbar-item">The most basic list group is an unordered list with list 
                 items and the proper classes. Build upon it with the options that follow, 
                 or with your own CSS as needed.</h3>
     
             <div id="single-lined-list" class="component-avatar flex ">
-                <button class="btn solid-pri-btn">model</button>   
-                section.          
+                <a href="#model">
+                <button class="btn solid-pri-btn">model</button> 
+                </a>  
             </div>
+                  
            
             <!-- show-code-btn -->
             <button class="show-code">show code &lt;/> </button>
@@ -179,17 +181,28 @@
     
                 <pre>
                     <code class="language-html ">
-    &lt;header class="navigation"&gt;
-        &lt;section class="nav-container-startsec"&gt;
-         &lt;i class="fas fa-bars fa-lg"&gt;&lt;/i&gt;
-         &lt;span class="nav-title"&gt;my website&lt;/span&gt;
-        &lt;/section&gt;
-        &lt;section class="nav-container-endsec"&gt;
-         &lt;i class="fas fa-bell fa-lg"  style="user-select: auto;"&gt;&lt;/i&gt;
-         &lt;i class="fas fa-shopping-cart fa-lg"&gt;&lt;/i&gt;
-         &lt;i class="fas fa-user-circle fa-lg"&gt;&lt;/i&gt;
-        &lt;/section&gt;
-    &lt;/header>
+&lt;a href="#model"&gt;
+    &lt;button class="btn solid-pri-btn"&gt;model&lt;/button&gt; 
+&lt;/a&gt;
+
+&lt;section id="model" class="model"&gt;
+    &lt;section class="model-body"&gt;
+        &lt;a class="model-cross" href=""&gt;
+            &times;
+        &lt;/a&gt;
+        &lt;header class="h1"&gt;heading text of model&lt;/header&gt;
+        &lt;div class="h5 gray-color">secondary text of a model Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, hic.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, atque. Incidunt, ratione possimus quas quo doloribus,
+            dicta, illo accusantium quisquam dolor ut eum repellendus cum? Architecto dolore praesentium minima voluptatum.
+        &lt;/div&gt;
+        &lt;a href="#"&gt;
+        &lt;button class="btn btn-pri-outlined"&gt;action1&lt;/button&gt; 
+        &lt;/a&gt;
+        &lt;a href="#"&gt;
+        &lt;button class="btn solid-pri-btn"&gt;action2&lt;/button&gt;  
+        &lt;/a&gt; 
+    
+&lt;/section>
                     </code>
                 </pre>
     
@@ -216,13 +229,36 @@
         <section class="on-this-page flex f-end flex-nowrap">
             <div class="on-this-page-bar ">
                 <h1 class="component-navbar-heading">on this page</h1>
-                <a href="#navigation">
-                    <li class="component-navbar-item">navigation</li>
+                <a href="#model-sec">
+                    <li class="component-navbar-item">model</li>
                 </a>
             </div>
         </section>
 
     </section>    
+
+    <!-- model  -->
+        <section id="model" class="model">
+            <section class="model-body">
+                <a class="model-cross" href="">
+                    &times;
+                </a>
+                <header class="h1">heading text of model</header>
+                <div class="h5 gray-color">secondary text of a model Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, hic.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, atque. Incidunt, ratione possimus quas quo doloribus,
+                    dicta, illo accusantium quisquam dolor ut eum repellendus cum? Architecto dolore praesentium minima voluptatum.
+                </div>
+                <a href="#">
+                <button class="btn btn-pri-outlined">action1</button> 
+                </a>
+                <a href="#">
+                <button class="btn solid-pri-btn">action2</button>  
+                </a> 
+            
+        </section>
+                
+    </section>
+    
 
     <script src="main.js"></script>
     <!-- highlight.js -->
