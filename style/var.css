@@ -21,10 +21,12 @@ html{
     --sec-light-purple: #4B336D;
     --sec-lightest-purple: #886dad;
     --icons-grey: #707070;
+    --gray-text:#6c757d;
+    --gray-textO01:rgba(108, 117, 125,0.3);
     --hr-color:rgba(126, 102, 160,0.5);
-    --suc-green:rgb(2, 126, 56);
+    --suc-green:#28a745;
     --suc-greeno01:rgb(2, 126, 56,0.1);
-    --info-blue:#446fcb;
+    --info-blue:#007bff;
     --info-blueo01: rgba(68, 111, 203,0.1);
     --alert-red: #ca3535;
     --alert-redo01:rgba(202, 53, 53,0.1);

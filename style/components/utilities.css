@@ -1,0 +1,51 @@
+.text-center{
+    text-align: center !important;
+}
+.text-left{
+    text-align: left !important;
+
+}
+.text-right{
+    text-align: right !important;
+}
+/* headings  */
+.h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.h2 {
+    font-weight: 500;
+    font-size: 2rem;
+}
+.h3 {
+    font-weight: 500;
+    font-size: 1.75rem;
+}
+.h4 {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.h5{  
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.h6 {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.gray-color{
+    color: var(--gray-text);
+}
+.blue-color{
+    color: #007bff!important;
+}
+.green-color{
+    color: #28a745!important;
+}
+.danger-color{
+    color: #dc3545!important;
+}
+.info-color{
+    color: #17a2b8!important;
+}
