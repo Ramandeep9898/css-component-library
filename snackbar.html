@@ -104,6 +104,7 @@
             </a>
     </div>
     </nav>
+   
     <!-- documentation page  -->
     <section class="doc flex">
 
@@ -148,8 +149,11 @@
                     <a href="navigation.html">
                         <li class="component-navbar-item">navigation</li>
                     </a>
-                    <a href="#">
+                    <a href="model.html">
                         <li class="component-navbar-item">model</li>
+                    </a>
+                    <a href="#">
+                        <li class="component-navbar-item">snackbar</li>
                     </a>
                 </ul>
             </div>
@@ -161,16 +165,22 @@
 
             <!--model -->
             <section id="model-sec">
-            <h1 class="component-navbar-heading ">navigation</h1>
+            <h1 class="component-navbar-heading ">snackbar</h1>
             <h3 class="component-navbar-item">The most basic list group is an unordered list with list 
                 items and the proper classes. Build upon it with the options that follow, 
                 or with your own CSS as needed.</h3>
     
             <div id="single-lined-list" class="component-avatar flex ">
-                <a href="#model">
-                <button class="btn solid-pri-btn">model</button> 
-                </a>  
+                <a href="#baseline">
+                <button class="btn solid-sec-btn">baseline</button>
+                </a>
+
+                <a href="#leading">
+                    <button class="btn solid-sec-btn">leading</button>
+                </a>
             </div>
+
+            
                   
            
             <!-- show-code-btn -->
@@ -181,28 +191,30 @@
     
                 <pre>
                     <code class="language-html ">
-&lt;a href="#model"&gt;
-    &lt;button class="btn solid-pri-btn"&gt;model&lt;/button&gt; 
-&lt;/a&gt;
+                        &lt;a href="#baseline"&gt;
+                            &lt;button class="btn solid-sec-btn"&gt;baseline&lt;/button&gt;
+                        &lt;/a&gt;
+            
+                        &lt;a href="#leading"&gt;
+                                &lt;button class="btn solid-sec-btn"&gt;leading&lt;/button&gt;
+                        &lt;/a&gt;
 
-&lt;section id="model" class="model"&gt;
-    &lt;section class="model-body"&gt;
-        &lt;a class="model-cross" href=""&gt;
-            &times;
-        &lt;/a&gt;
-        &lt;header class="h1"&gt;heading text of model&lt;/header&gt;
-        &lt;div class="h5 gray-color">secondary text of a model Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, hic.
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, atque. Incidunt, ratione possimus quas quo doloribus,
-            dicta, illo accusantium quisquam dolor ut eum repellendus cum? Architecto dolore praesentium minima voluptatum.
-        &lt;/div&gt;
-        &lt;a href="#"&gt;
-        &lt;button class="btn btn-pri-outlined"&gt;action1&lt;/button&gt; 
-        &lt;/a&gt;
-        &lt;a href="#"&gt;
-        &lt;button class="btn solid-pri-btn"&gt;action2&lt;/button&gt;  
-        &lt;/a&gt; 
-    
-&lt;/section>
+                        &lt;section id="baseline" class="snackbar-baseline"&gt;
+                            &lt;div class="snackbar-body"&gt;
+                                Can't send photo. Retry in 5 seconds.
+                                &lt;span class="retry"&gt;retry&lt;/span&gt;
+                               &lt;a href=" " class="snackbar-cross"&gt;&times;&lt;/a&gt;
+                            &lt;/div&gt;
+                        &lt;/section&gt;
+                    
+                        &lt;section id="leading" class="snackbar-leading"&gt;
+                            &lt;div class="snackbar-body"&gt;
+                                Can't send photo. Retry in 5 seconds.
+                                &lt;span class="retry"&gt;retry&lt;/span&gt;
+                               &lt;a href=" " class="snackbar-cross"&gt;&times;&lt;/a&gt;
+                            &lt;/div&gt;
+                        &lt;/section&gt;
+
                     </code>
                 </pre>
     
@@ -236,28 +248,22 @@
         </section>
 
     </section>    
+    <section id="baseline" class="snackbar-baseline">
+        <div class="snackbar-body">
+            Can't send photo. Retry in 5 seconds.
+            <span class="retry">retry</span>
+           <a href=" " class="snackbar-cross">&times;</a>
+        </div>
+    </section>
 
-    <!-- model  -->
-        <section id="model" class="model test">
-            <section class="model-body">
-                <a class="model-cross" href="">
-                    &times;
-                </a>
-                <header class="h1">heading text of model</header>
-                <div class="h5 gray-color">secondary text of a model Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, hic.
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, atque. Incidunt, ratione possimus quas quo doloribus,
-                    dicta, illo accusantium quisquam dolor ut eum repellendus cum? Architecto dolore praesentium minima voluptatum.
-                </div>
-                <a href="#">
-                <button class="btn btn-pri-outlined">action1</button> 
-                </a>
-                <a href="#">
-                <button class="btn solid-pri-btn">action2</button>  
-                </a> 
-            
-            </section>
-                
-        </section>
+    <section id="leading" class="snackbar-leading">
+        <div class="snackbar-body">
+            Can't send photo. Retry in 5 seconds.
+            <span class="retry">retry</span>
+           <a href=" " class="snackbar-cross">&times;</a>
+        </div>
+    </section>
+              
     
 
     <script src="main.js"></script>
