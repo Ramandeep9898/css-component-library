@@ -105,15 +105,11 @@
 }
 
 /*  side sidebar */
-.component-navbar{
-    /* margin: 1.25rem 0px 0 4.375rem; */
-    height: 100vh;
-    width: 20%;
-}
+
 .sidebar{
-    position: fixed;
-    left: 30px;
-    height: 100vh;
+    /* position: fixed; */
+    /* left: 30px; */
+    /* height: 100vh;  */
 }
 
 @media screen and (max-width: 600px) {
@@ -129,14 +125,10 @@
 }
 
 /* on this page  */
-.on-this-page{
-    width: 20%;
-    /* margin: 1.25rem 4.375rem 0 0; */
-}
 .on-this-page-bar{
-    position: fixed;
-    right: 20px;
-    height: 100vh;
+    /* position: fixed; */
+    /* right: 20px;
+    height: 100vh; */ 
 }
 .component-navbar-item{
     font-size: var(--side-navbar-subheading);
