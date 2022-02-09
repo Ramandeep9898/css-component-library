@@ -32,6 +32,7 @@
     font-size: var(--side-navbar-heading);
     color: var(--sec-dark-purple);
     font-family: "Recoleta-light";
-    font-weight: 400;
+    font-weight: 500;
     margin-bottom: 8px;
+    text-transform: capitalize;
 }

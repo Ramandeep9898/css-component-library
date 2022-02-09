@@ -4,10 +4,12 @@
     border-radius: 0px;
     display: flex;
     flex-direction: row;
-    background-color: var(--sec-dark-purple);
-    color: #fff;
-    padding: 0 20px 0 20px;
-    height: 64px;
+    text-transform: capitalize;
+    font-weight: 500;
+    background-color: var(--lightmode-bg-color);
+    color: var(--sec-dark-purple);
+    padding: 0 1.25rem 0 1.25rem;
+    height: 4rem;
     justify-content: space-between;
 }
 .nav-container-startsec{
@@ -15,8 +17,9 @@
     align-items: center;
 }
 .nav-container-startsec > i{
-    margin-right: 32px;
-    color: #fff;
+    margin-right: 2rem;
+    color: var(--sec-dark-purple);
+    cursor: pointer;
 }
 .nav-title{
     font-weight: 500;
@@ -24,6 +27,8 @@
 .nav-container-endsec{
     display: flex;
     align-items: center;
-    gap: 20px;
-
+    gap: 1.25rem;
+}
+.nav-container-endsec> i{
+    cursor: pointer;
 }

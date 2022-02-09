@@ -137,6 +137,7 @@
     font-family: "Sofia-pro";
     font-weight: 200;
     color: var(--sec-light-purple);
+    text-transform: capitalize;
     margin-bottom: 8px;
 }
 .line-hori{

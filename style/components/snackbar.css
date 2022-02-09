@@ -34,14 +34,14 @@
 }
 .snackbar-cross{
     color: #fff;
-    font-size: 25px;
+    font-size: 1.5rem;
     line-height: 0;
     font-weight: 600;
 }
 .retry{
     text-transform: uppercase;
     color: #bb86fc;
-    padding: 14px 16px;
+    padding: 0.875rem 1rem;
     cursor: pointer;
 }
 .snackbar-baseline:target{
