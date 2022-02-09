@@ -21,6 +21,8 @@ html{
     --sec-light-purple: #4B336D;
     --sec-lightest-purple: #886dad;
     --icons-grey: #707070;
+    --gray-bg: rgba(0, 0, 0, 0.2);
+    
     --gray-text:#6c757d;
     --gray-textO01:rgba(108, 117, 125,0.3);
     --hr-color:rgba(126, 102, 160,0.5);

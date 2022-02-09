@@ -1,8 +1,8 @@
 *{
     margin: 0px;
     padding: 0px;
-    border-radius:var(--border-radius) ;
-    text-transform: capitalize;
+    /* border-radius:var(--border-radius) ; */
+    /* text-transform: capitalize; */
     /* background-color: var(--lightmode-bg-color); */
     text-decoration: none;
     list-style: none;
