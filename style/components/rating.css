@@ -1,10 +1,7 @@
 
 .container{
   position: relative;
-  width: 400px;
-  background: #111;
-  padding: 20px 30px;
-  border: 1px solid #444;
+  background: transparent;
   border-radius: 5px;
   display: flex;
   align-items: center;
@@ -23,7 +20,7 @@
   position: absolute;
   right: 10px;
   top: 5px;
-  font-size: 16px;
+  font-size: 1.25rem;
   color: #666;
   font-weight: 500;
   cursor: pointer;
@@ -35,7 +32,7 @@
   display: none;
 }
 .star-widget label{
-  font-size: 40px;
+  font-size: 1.125rem;
   color: #444;
   padding: 10px;
   float: right;
@@ -53,19 +50,19 @@ input#rate-5:checked ~ label{
   text-shadow: 0 0 20px #952;
 }
 #rate-1:checked ~ form header:before{
-  content: "I just hate it ";
+  content: "Hate it ";
 }
 #rate-2:checked ~ form header:before{
-  content: "I don't like it ";
+  content: "Can Be Inproved";
 }
 #rate-3:checked ~ form header:before{
-  content: "It is awesome ";
+  content: "It is Gud";
 }
 #rate-4:checked ~ form header:before{
-  content: "I just like it ";
+  content: "Like it ";
 }
 #rate-5:checked ~ form header:before{
-  content: "I just love it ";
+  content: "Loved it ";
 }
 .container form{
   display: none;
@@ -75,50 +72,9 @@ input:checked ~ form{
 }
 form header{
   width: 100%;
-  font-size: 25px;
+  font-size: 1.5625rem;
   color: #fe7;
   font-weight: 500;
-  margin: 5px 0 20px 0;
-  text-align: center;
-  transition: all 0.2s ease;
-}
-form .textarea{
-  height: 100px;
-  width: 100%;
-  overflow: hidden;
-}
-form .textarea textarea{
-  height: 100%;
-  width: 100%;
-  outline: none;
-  color: #eee;
-  border: 1px solid #333;
-  background: #222;
-  padding: 10px;
-  font-size: 17px;
-  resize: none;
-}
-.textarea textarea:focus{
-  border-color: #444;
-}
-form .btn{
-  height: 45px;
-  width: 100%;
-  margin: 15px 0;
-}
-form .btn button{
-  height: 100%;
-  width: 100%;
-  border: 1px solid #444;
-  outline: none;
-  background: #222;
-  color: #999;
-  font-size: 17px;
-  font-weight: 500;
-  text-transform: uppercase;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-form .btn button:hover{
-  background: #1b1b1b;
+  margin: 5px 0  0;  text-align: center;
+  transition: all 1.25rem .2s ease;
 }

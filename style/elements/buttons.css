@@ -6,11 +6,14 @@
     padding: 8px 16px;
     font-size: var(--cta-btn-font-size);
     border: none;
+    text-transform: capitalize;
     box-shadow: var(--btn-box-shadow);
     margin-left: 10px;
     font-weight: 500;
     color: var(--lightmode-bg-color);
     cursor: pointer;
+    border-radius:var(--border-radius) ;
+
 }
 .btn-link {
     color: var(--primary-yellow);
@@ -64,6 +67,10 @@
     font-weight: 500;
     margin-bottom: 40px;
     cursor: pointer;
+    border-radius:var(--border-radius) ;
+    text-transform: capitalize;
+
+    
 }
 .code-snippets{
     margin-bottom: 20px; 
@@ -80,6 +87,8 @@
     font-size: var(--side-navbar-subheading);
     font-family: "sofia-pro";
     font-weight: 500;
+    text-transform: capitalize;
+
 }
 .next-btn:hover{
     background-color: var(--sec-lightest-purple);

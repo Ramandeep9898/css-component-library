@@ -126,10 +126,12 @@
 
 /* on this page  */
 .on-this-page-bar{
-    /* position: fixed; */
-    /* right: 20px;
-    height: 100vh; */ 
-}
+    /* position: fixed;
+    right: 20px;
+    height: 100vh; */
+   
+    
+} 
 .component-navbar-item{
     font-size: var(--side-navbar-subheading);
     font-family: "Sofia-pro";

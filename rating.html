@@ -163,19 +163,15 @@
         <section class="component-doc">
             <h1 class="component-doc-no">11</h1>
 
-            <!--model -->
-            <section id="model-sec">
+            <!--rating -->
+            <section id="rating">
             <h1 class="component-navbar-heading ">rating</h1>
             <h3 class="component-navbar-item">The most basic list group is an unordered list with list 
                 items and the proper classes. Build upon it with the options that follow, 
                 or with your own CSS as needed.</h3>
     
-            <div id="single-lined-list" class="component-avatar flex ">
+            <div class="component-avatar flex flex-centre">
                 <div class="container">
-                    <div class="post">
-                      <div class="text">Thanks for rating us!</div>
-                      <div class="edit">EDIT</div>
-                    </div>
                     <div class="star-widget">
                       <input type="radio" name="rate" id="rate-5">
                       <label for="rate-5" class="fas fa-star"></label>
@@ -189,15 +185,9 @@
                       <label for="rate-1" class="fas fa-star"></label>
                       <form action="#">
                         <header></header>
-                        <div class="textarea">
-                          <textarea cols="30" placeholder="Describe your experience.."></textarea>
-                        </div>
-                        <div class="btn">
-                          <button type="submit">Post</button>
-                        </div>
                       </form>
                     </div>
-                  </div>
+                </div>
             </div>
 
             
@@ -211,7 +201,23 @@
     
                 <pre>
                     <code class="language-html ">
-                        
+    &lt;div class="container"&gt;
+        &lt;div class="star-widget"&gt;
+          &lt;input type="radio" name="rate" id="rate-5"&gt;
+          &lt;label for="rate-5" class="fas fa-star"&gt;&lt;/label&gt;
+          &lt;input type="radio" name="rate" id="rate-4"&gt;
+          &lt;label for="rate-4" class="fas fa-star"&gt;&lt;/label&gt;
+          &lt;input type="radio" name="rate" id="rate-3"&gt;
+          &lt;label for="rate-3" class="fas fa-star"&gt;&lt;/label&gt;
+          &lt;input type="radio" name="rate" id="rate-2"&gt;
+          &lt;label for="rate-2" class="fas fa-star"&gt;&lt;/label&gt;
+          &lt;input type="radio" name="rate" id="rate-1"&gt;
+          &lt;label for="rate-1" class="fas fa-star"&gt;&lt;/label&gt;
+          &lt;form action="#"&gt;
+            &lt;header>&lt;/header&gt;
+          &lt;/form&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;  
 
                     </code>
                 </pre>
@@ -239,8 +245,8 @@
         <section class="on-this-page flex f-end flex-nowrap">
             <div class="on-this-page-bar ">
                 <h1 class="component-navbar-heading">on this page</h1>
-                <a href="#model-sec">
-                    <li class="component-navbar-item">model</li>
+                <a href="#rating">
+                    <li class="component-navbar-item">rating</li>
                 </a>
             </div>
         </section>
@@ -248,21 +254,7 @@
     </section>    
     
     
-    <script>
-        const btn = document.querySelector("button");
-        const post = document.querySelector(".post");
-        const widget = document.querySelector(".star-widget");
-        const editBtn = document.querySelector(".edit");
-        btn.onclick = ()=>{
-          widget.style.display = "none";
-          post.style.display = "block";
-          editBtn.onclick = ()=>{
-            widget.style.display = "block";
-            post.style.display = "none";
-          }
-          return false;
-        }
-      </script>
+    
 
     <script src="main.js"></script>
     <!-- highlight.js -->

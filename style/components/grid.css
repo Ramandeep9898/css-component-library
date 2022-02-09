@@ -2,14 +2,14 @@
     display: grid;
     width: 100%;
     padding: 1.5rem;
-    background-color: var(--gray-bg);
+    background-color: var(--grid-dark-bg);
     gap: 1.25rem;
 }
 .two-item-grid{
     grid-template-columns: repeat(2, 1fr);
 }
 .grid-cell{
-    background-color: var(--gray-bg);
+    background-color: var(--lightmode-bg-color);
     width: 100%;
     padding: 1.5rem;
 }

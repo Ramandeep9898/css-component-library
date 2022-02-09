@@ -27,9 +27,7 @@
   justify-content: flex-end;
 
 }
-.code{
-    /* border: 1px solid var(--gray-text); */
-}
+
 @font-face {
     font-family: "Recoleta";
     src: url("../../fonts/5fc4e5f7211f779cde7e6408_Recoleta.woff") format("woff");
