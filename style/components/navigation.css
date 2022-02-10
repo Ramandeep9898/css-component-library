@@ -1,7 +1,6 @@
 .navigation{
     width: 100%;
     min-width: 300px;
-    
     border-radius: 0px;
     display: flex;
     flex-direction: row;
@@ -10,7 +9,6 @@
     background-color: var(--lightmode-bg-color);
     color: var(--sec-dark-purple);
     padding: 20px 70px;
-    height: 4rem;
     justify-content: space-between;
 }
 .nav-container-startsec{
