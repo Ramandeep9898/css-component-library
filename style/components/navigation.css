@@ -1,6 +1,7 @@
 .navigation{
     width: 100%;
     min-width: 300px;
+    
     border-radius: 0px;
     display: flex;
     flex-direction: row;
@@ -8,7 +9,7 @@
     font-weight: 500;
     background-color: var(--lightmode-bg-color);
     color: var(--sec-dark-purple);
-    padding: 0 1.25rem 0 1.25rem;
+    padding: 20px 70px;
     height: 4rem;
     justify-content: space-between;
 }
