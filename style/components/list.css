@@ -6,7 +6,10 @@
     line-height: 1.75rem;
     border-radius: 0px;
     background-color: #fff;
+}
+.border{
     border: 1px solid var(--sec-dark-purple);
+
 }
 .list-items{
     display: flex;
