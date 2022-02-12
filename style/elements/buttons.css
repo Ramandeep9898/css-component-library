@@ -53,7 +53,11 @@
     height: 50px;
     color: var(--sec-dark-purple);
     border: 1px solid var(--sec-dark-purple);
+    background-color: var(--lightmode-bg-color);
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 

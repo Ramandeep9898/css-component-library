@@ -52,6 +52,7 @@
     color: rgba(0, 0, 0,.12);
 }
 .input-ckeckbox{
+    cursor: pointer;
     width: 18px;
     height: 18px;
 }
