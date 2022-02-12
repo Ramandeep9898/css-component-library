@@ -34,10 +34,12 @@
 }
 .card-vertical{
     display: flex;
-    padding: 25px 25px;
 
 }
 .shadow{
     box-shadow: var(--btn-box-shadow);
 
+}
+.width100{
+    width: 100%;
 }
