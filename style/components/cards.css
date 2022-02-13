@@ -2,7 +2,6 @@
     position: relative;
     text-align: center;
     min-width: 300px;
-    border: 2px;
     box-shadow: var(--btn-box-shadow);
     background-color: #C4C4C480;
     border-radius: 8px;
@@ -24,6 +23,7 @@
 .card-typo{
     background-color: var(--lightmode-bg-color);
     padding: 20px 20px;
+    border-radius: 0 8px 8px 0;
 }
 .card-icons{
     display: flex;
@@ -34,6 +34,7 @@
 }
 .card-vertical{
     display: flex;
+    border-radius: 0 4px 4px 0;
 
 }
 .shadow{

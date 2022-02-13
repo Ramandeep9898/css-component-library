@@ -5,13 +5,15 @@
     min-width: 100%;
     min-height: 120px;
     background-color: #fff;
+    border-radius: 8px;
 }
 .textarea-label{
-    color: rgba(128, 128, 128,0.8);
+    color: var(--sec-dark-purple);
     font-size: 16px;
-    font-weight: 400;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-weight: 500;
     margin: 4px;
+    text-transform: capitalize;
+
 }
 .input{
     border: 2px solid rgba(128, 128, 128,0.8);
@@ -19,9 +21,11 @@
     font-size: 16px;
     outline: none;
     min-width: 100%;
+    border-radius: 8px;
+
 }
 .input:focus{
-    border: 1px solid var(--sec-dark-purple);
+    border: 2px solid var(--sec-dark-purple);
 }
 .form-btn{
     margin-top: 20px;
