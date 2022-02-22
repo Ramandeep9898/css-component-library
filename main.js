@@ -24,10 +24,3 @@ barBtn.addEventListener("click",()=>{
         phoneNavbar.style.display = "none"
     }
 })
-// showCode.addEventListener("click", ()=>{    
-//     if(codeSnippet.style.display === "none"){
-//         codeSnippet.style.display = "block"
-//     }else{
-//         codeSnippet.style.display = "none"
-//     }
-// })

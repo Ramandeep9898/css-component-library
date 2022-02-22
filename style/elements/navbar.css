@@ -107,9 +107,9 @@
 /*  side sidebar */
 
 .sidebar{
-    /* position: fixed; */
-    /* left: 30px; */
-    /* height: 100vh;  */
+    /* position: fixed; 
+    left: 30px;
+     height: 100vh;  */
 }
 
 @media screen and (max-width: 600px) {
@@ -128,8 +128,8 @@
 .on-this-page-bar{
     /* position: fixed;
     right: 20px;
-    height: 100vh; */
-   
+    height: 100vh;
+    */
     
 } 
 .component-navbar-item{
