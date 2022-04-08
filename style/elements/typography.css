@@ -7,6 +7,7 @@
     background-repeat: no-repeat ;
     width: 70px;
     height: 70px;
+    
 }
 .main-heading-title{
     font-family: "Recoleta-light";
@@ -31,6 +32,7 @@
     font-size: var(--side-navbar-heading);
     color: var(--sec-dark-purple);
     font-family: "Recoleta-light";
-    font-weight: 400;
+    font-weight: 500;
     margin-bottom: 8px;
+    text-transform: capitalize;
 }

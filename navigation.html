@@ -7,11 +7,11 @@
     <title>Document</title>
     <link rel="stylesheet" href="main.css">
     <script src="https://kit.fontawesome.com/86189ed851.js" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/86189ed851.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/github-dark.min.css" integrity="sha512-rO+olRTkcf304DQBxSWxln8JXCzTHlKnIdnMUwYvQa9/Jd4cQaNkItIUj6Z4nvW1dqK0SKXLbn9h4KwZTNtAyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
 
 </head>
 <body>
+
     <!-- header  navbar-->
     <nav class="navbar flex flex-nowrap sticky">
         <a href="#">
@@ -75,36 +75,41 @@
         </div>
         <div class="phone-nav-body flex f-col flex-centre">
         
-            <a href="#">
+            <a href="avatar.html">
                 <li class="component-navbar-item">Avatar</li>
             </a>
             <a href="badge.html">
                 <li class="component-navbar-item">badge</li>
             </a>
-            <a href="badge.html">
+            <a href="alert.html">
                 <li class="component-navbar-item">Alert</li>
             </a>
-            <a href="badge.html">
+            <a href="button.html">
                 <li class="component-navbar-item">button</li>
             </a>
-            <a href="badge.html">
+            <a href="cards.html">
                 <li class="component-navbar-item">card</li>
             </a>
-            <a href="badge.html">
+            <a href="images.html">
                 <li class="component-navbar-item">images</li>
             </a>
-            <a href="badge.html">
+            <a href="input.html">
                 <li class="component-navbar-item">input</li>
             </a>
-        
+            <a href="utilities.html">
+                <li class="component-navbar-item">utilities</li>
+            </a>
+            <a href="#">
+                <li class="component-navbar-item">list</li>
+            </a>
     </div>
     </nav>
-
     <!-- documentation page  -->
-    <section class="doc">
+    <section class="doc flex">
 
-            <!-- sidebar -->
-    <section class="component-navbar ">
+       
+       <!-- sidebar -->
+       <section class="component-navbar ">
         <div class="sidebar">
             <h1 class="component-navbar-heading">Getting Started</h1>
             <a href="#">
@@ -120,7 +125,7 @@
                 <a href="alert.html">
                     <li class="component-navbar-item">Alert</li>
                 </a>
-                <a href="#">
+                <a href="badge.html">
                     <li class="component-navbar-item">badge</li>
                 </a>
                 <a href="button.html">
@@ -141,7 +146,7 @@
                 <a href="list.html">
                     <li class="component-navbar-item">list</li>
                 </a>
-                <a href="navigation.html">
+                <a href="#">
                     <li class="component-navbar-item">navigation</li>
                 </a>
                 <a href="model.html">
@@ -162,161 +167,82 @@
 
         <!-- centre documentation  -->
         <section class="component-doc">
-            <h1 class="component-doc-no">03</h1>
-            <!-- badge  -->
-            <h1 id="badge" class="component-navbar-heading mg-top20">badge</h1>
-            <h3 class="component-navbar-item">Badges are used to highlight an item's status for quick recognition.</h3>
+            <h1 class="component-doc-no">10</h1>
 
-            <div class="component-avatar flex flex-nowrap flex-centre">
-                <span class="badge badge-success">success</span>
-                <span class="badge badge-error">error</span>
-                <span class="badge badge-warning">warning</span>
-                <span class="badge badge-info">info</span>
+            <!--navigation -->
+            <section id="navigation">
+            <h1 class="component-navbar-heading ">navigation</h1>
+            <h3 class="component-navbar-item">The most basic list group is an unordered list with list 
+                items and the proper classes. Build upon it with the options that follow, 
+                or with your own CSS as needed.</h3>
+    
+            <div id="single-lined-list" class="component-avatar flex flex-nowrap f-col">
+               <header class="navigation">
+                       <section class="nav-container-startsec">
+                        <i class="fas fa-bars fa-lg"></i>
+                        <span class="nav-title">my website</span>
+                       </section>
+                       <section class="nav-container-endsec">
+                        <i class="fas fa-bell fa-lg"  style="user-select: auto;"></i>
+                        <i class="fas fa-shopping-cart fa-lg"></i>
+                        <i class="fas fa-user-circle fa-lg"></i>
+                       </section>
+               </header>
             </div>
-            <button class="show-code">show code &lt;/> </button>
-
-            <!-- code-snippet  -->
-            <div class="code-snippets">
-
-                <pre>
-                    <code class="language-html ">&lt;span class="badge badge-success"&gt;success &lt;/span&gt;
-&lt;span class="badge badge-error"&gt;error &lt;/span&gt;
-&lt;span class="badge badge-warning"&gt;warning &lt;/span&gt;
-&lt;span class="badge badge-info"&gt;info &lt;/span&gt;</code>
-                </pre>
-
-            </div>
-            
-        <div class="line-hori"></div>
-
-            <!-- /* badge on avatar online, ofline, ddnd */ -->
-            <h1 id="badge-on-avatar" class="component-navbar-heading mg-top20">badge On avatar</h1>
-            <h3 class="component-navbar-item">Badges are used to highlight an item's status for quick recognition.</h3>
-
-            <div class="component-avatar flex flex-nowrap flex-centre">
-                <div class="badge-on-avatar">
-                    <img src="images/60111.jpg" alt="" class="avatar avatar-s"> 
-                    <span class="badge-span badge-online"></span>
-                </div>
-                <div class="badge-on-avatar">
-                    <img src="images/60111.jpg" alt="" class="avatar avatar-md"> 
-                    <span class="badge-span badge-offline"></span>
-                </div>
-                <div class="badge-on-avatar">
-                    <img src="images/60111.jpg" alt="" class="avatar avatar-l">
-                    <span class="badge-span badge-dnd"></span>
-                </div>
-               
-            </div>
-            
-            <!-- show-code-btn -->
-            <button class="show-code">show code &lt;/> </button>
-
-            <!-- code-snippet  -->
-            <div class="code-snippets">
-
-                <pre>
-                    
-                <code class="language-html ">&lt;div class="badge-on-avatar"&gt;
-&lt;img src="images/60111.jpg" alt="" class="avatar avatar-s"&gt;
-&lt;span class="badge-span badge-online"&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;div class="badge-on-avatar"&gt;
-&lt;img src="images/60111.jpg" alt="" class="avatar avatar-md"&gt;
-&lt;span class="badge-span badge-offline"&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;div class="badge-on-avatar"&gt;
-&lt;img src="images/60111.jpg" alt="" class="avatar avatar-l"&gt;
-&lt;span class="badge-span badge-dnd"&gt;&lt;/span&gt;
-&lt;/div&gt;</code>
-                    
-                </pre>
-
-            </div>
-            
-        <div class="line-hori"></div>
-
-
-            <!-- badge on icons -->
-            <h1 id="badge-on-icon" class="component-navbar-heading mg-top20">badge on icon</h1>
-            <h3 class="component-navbar-item">Badges are used to highlight an item's status for quick recognition.</h3>
-
-            <div class="component-avatar flex flex-nowrap flex-centre">
-                <div class="badge-on-avatar">
-                    <i class="fas fa-laugh-wink fa-2x color"></i>
-                    <span class="badge-count">2</span>
-                </div>
-                <div class="badge-on-avatar">
-                    <i class="fas fa-user-secret fa-2x color"></i>
-                    <span class="badge-count">2-</span>
-                </div>
-                <div class="badge-on-avatar">
-                    <i class="fas fa-bug fa-2x color"></i>
-                    <span class="badge-count">2+</span>
-                </div>
-               
-            </div>
-            
-            <!-- show-code-btn -->
-            <button class="show-code">show code &lt;/> </button>
-
-            <!-- code-snippet  -->
-            <div class="code-snippets">
-
-                <pre>
-                    
            
-                <code class="language-html ">&lt;div class="badge-on-avatar"&gt;
-&lt;i class="fas fa-laugh-wink fa-2x color"&lt;/i&gt;
-&lt;span class="badge-count">2&lt;/span&gt;
-&lt;/div&gt;
-&lt;div class="badge-on-avatar"&gt;
-&lt;i class="fas fa-user-secret fa-2x color"&lt;/i&gt;
-&lt;span class="badge-count">2-&lt;/span>
-&lt;/div&gt;
-&lt;div class="badge-on-avatar"&gt;
-&lt;i class="fas fa-bug fa-2x color"&lt;/i&gt;
-&lt;span class="badge-count">2+&lt;/span&gt;
-&lt;/div&gt;</code>
+            <!-- show-code-btn -->
+            <button class="show-code">show code &lt;/> </button>
+    
+            <!-- code-snippet  -->
+            <div class="code-snippets">
+    
+                <pre>
+                    <code class="language-html ">
+    &lt;header class="navigation"&gt;
+        &lt;section class="nav-container-startsec"&gt;
+         &lt;i class="fas fa-bars fa-lg"&gt;&lt;/i&gt;
+         &lt;span class="nav-title"&gt;my website&lt;/span&gt;
+        &lt;/section&gt;
+        &lt;section class="nav-container-endsec"&gt;
+         &lt;i class="fas fa-bell fa-lg"  style="user-select: auto;"&gt;&lt;/i&gt;
+         &lt;i class="fas fa-shopping-cart fa-lg"&gt;&lt;/i&gt;
+         &lt;i class="fas fa-user-circle fa-lg"&gt;&lt;/i&gt;
+        &lt;/section&gt;
+    &lt;/header>
+                    </code>
                 </pre>
-
-            </div>
-
+    
+            </div> 
+            </section>
             <div class="line-hori"></div>
 
         <!-- perve-next btns  -->
         <div class="next-prev-btns flex ">
-            <a href="alert.html" >
+            <a href="list.html" >
                 <button class="next-btn ">
-                    <i class="fas fa-angle-left"></i> alert
+                    <i class="fas fa-angle-left"></i> list
                 </button>
             </a>
-            <a href="button.html" >
-                <button class="next-btn ">button <i class="fas fa-angle-right"></i>
+            <a href="model.html" >
+                <button class="next-btn">model <i class="fas fa-angle-right"></i>
                 </button>
             </a>
         </div>
         </section>
+        
 
-
-         <!-- on this page  -->
-         <section class="on-this-page flex f-end">
+          <!-- on this page  -->
+        <section class="on-this-page flex f-end flex-nowrap">
             <div class="on-this-page-bar ">
                 <h1 class="component-navbar-heading">on this page</h1>
-                <a href="#badge">
-                    <li class="component-navbar-item">badge</li>
-                </a>
-                <a href="#badge-on-avatar">
-                    <li class="component-navbar-item">badge on avatar</li>
-                </a>
-                <a href="#badge-on-icon">
-                    <li class="component-navbar-item">badge  on icon</li>
+                <a href="#navigation">
+                    <li class="component-navbar-item">navigation</li>
                 </a>
             </div>
         </section>
 
-    </section>   
-    
+    </section>    
+
     <script src="main.js"></script>
     <!-- highlight.js -->
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
