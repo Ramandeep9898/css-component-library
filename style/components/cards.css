@@ -24,6 +24,7 @@
     background-color: var(--lightmode-bg-color);
     padding: 20px 20px;
     border-radius: 0 8px 8px 0;
+    /* border-radius: 8px; */
 }
 .card-icons{
     display: flex;
@@ -86,4 +87,22 @@
 }
 .quantity-count:hover {
     box-shadow: var(--btn-box-shadow);
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+.overlay>button{
+    position: relative;
+    top: 50%;
+    cursor: auto;
+    box-shadow: none;
+}
+.overlay>button:hover{
+    box-shadow: none;
 }
