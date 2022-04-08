@@ -73,6 +73,7 @@
     cursor: pointer;
     border-radius:var(--border-radius) ;
     text-transform: capitalize;
+    outline: none;
 
     
 }

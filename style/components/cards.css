@@ -44,3 +44,46 @@
 .width100{
     width: 100%;
 }
+/* from here bitch */
+.card-typo>i{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    cursor: pointer;
+}
+.vertical-card-height{
+    height: 280px;
+    border-radius: 8px!important;
+}
+.quantity-container{
+    display: flex;
+    font-size: 16px;
+    justify-content: start;
+    align-items: center;
+}
+.quantity{
+ border: 1px solid var(--sec-dark-purple);
+ padding: 0 2px 0 2px;
+ 
+}
+.quantity-count{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    text-align: center;
+    border: 2px solid #9A9A9A;
+    margin: 0 8px 0 8px;
+    cursor: pointer;
+
+}
+.quantity {
+    width: 36px;
+    height: 24px;
+    border-radius: 8px ;
+    text-align: center;
+    border: 2px solid #9A9A9A;
+    cursor: auto;
+}
+.quantity-count:hover {
+    box-shadow: var(--btn-box-shadow);
+}
