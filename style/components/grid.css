@@ -1,18 +1,22 @@
-.grid-container{
-    display: grid;
-    width: 100%;
-    padding: 1.5rem;
-    background-color: var(--grid-dark-bg);
-    gap: 1.25rem;
+.grid-container {
+  display: grid;
+  width: 100%;
+  padding: 1.5rem;
+  gap: 1.25rem;
 }
-.two-item-grid{
-    grid-template-columns: repeat(2, 1fr);
+.grid-bgcolor {
+  background-color: var(--grid-dark-bg);
 }
-.grid-cell{
-    background-color: var(--lightmode-bg-color);
-    width: 100%;
-    padding: 1.5rem;
+.two-item-grid {
+  grid-template-columns: repeat(2, 1fr);
 }
-.three-item-grid{
-    grid-template-columns: repeat(3, 1fr);
+.grid-cell {
+  width: 100%;
+  padding: 1.5rem;
+}
+.three-item-grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid-cell-bgcolor {
+  background-color: var(--lightmode-bg-color);
 }
