@@ -11,6 +11,7 @@
 .card-img {
   height: 15rem;
   padding: 10px;
+
   cursor: pointer;
 }
 .card {

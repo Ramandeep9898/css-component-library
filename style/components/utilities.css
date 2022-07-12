@@ -2,13 +2,16 @@
     color: var(--lightmode-bg-color);
 }
 .text-center{
+    
+    width: 100%;
     text-align: center !important;
 }
 .text-left{
+    width: 100%;
     text-align: left !important;
 
 }
-.text-right{
+.text-right{    width: 100%;
     text-align: right !important;
 }
 /* headings  */
