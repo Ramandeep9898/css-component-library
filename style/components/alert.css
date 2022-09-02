@@ -1,24 +1,23 @@
-.alert{
-    padding: 0.8rem;
-    border-radius: 10px;
-    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
-    display: flex;
-    align-items: center;
-    text-transform: capitalize;
-    font-size: 16px;
-    font-weight: 500;
-    color: var(--lightmode-bg-color);
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+.alert {
+  padding: 0.8rem;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--lightmode-bg-color);
 }
-.alert-success{
-    background-color: var(--suc-green); 
+.alert-success {
+  background-color: var(--suc-green);
 }
-.alert-info{
-    background-color: var(--info-blue); 
+.alert-info {
+  background-color: var(--info-blue);
 }
-.alert-error{
-    background-color: var(--alert-red);
+.alert-error {
+  background-color: var(--alert-red);
 }
-.alert-warning{
-    background-color: var(--primary-yellow);
+.alert-warning {
+  background-color: var(--primary-yellow);
 }
