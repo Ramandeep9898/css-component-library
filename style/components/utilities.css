@@ -1,36 +1,36 @@
+.white-color{
+    color: var(--lightmode-bg-color);
+}
 .text-center{
+    
+    width: 100%;
     text-align: center !important;
 }
 .text-left{
+    width: 100%;
     text-align: left !important;
 
 }
-.text-right{
+.text-right{    width: 100%;
     text-align: right !important;
 }
 /* headings  */
 .h1 {
     font-size: 2.5rem;
-    font-weight: 500;
 }
 .h2 {
-    font-weight: 500;
     font-size: 2rem;
 }
 .h3 {
-    font-weight: 500;
     font-size: 1.75rem;
 }
 .h4 {
-    font-weight: 500;
     font-size: 1.5rem;
 }
-.h5{  
-    font-weight: 500;
+.h5{ 
     font-size: 1.2rem;
 }
 .h6 {
-    font-weight: 500;
     font-size: 1rem;
 }
 
@@ -48,4 +48,22 @@
 }
 .info-color{
     color: #17a2b8!important;
+}
+.fW-500{
+    font-weight: 500;
+}
+.fW-600{
+    font-weight: 600;
+}
+.fW-700{
+    font-weight: 700;
+}
+.capitalize{
+    text-transform: capitalize;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.lowercase{
+    text-transform: lowercase;
 }

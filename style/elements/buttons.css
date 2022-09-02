@@ -3,19 +3,25 @@
 }
 .btn{
     background-color: var(--lightmode-bg-color);
-    padding: 8px 16px;
+    padding: 10px 16px;
     font-size: var(--cta-btn-font-size);
     border: none;
+    text-transform: capitalize;
     box-shadow: var(--btn-box-shadow);
-    margin-left: 10px;
+    font-weight: 500;
     color: var(--lightmode-bg-color);
+    cursor: pointer;
+    border-radius:var(--border-radius) ;
+    line-height: 1;
+
 }
 .btn-link {
     color: var(--primary-yellow);
 }
 .solid-pri-btn{
     background-color: var(--primary-yellow);
-    color: var(--lightmode-bg-color);
+    color: #fff;
+
 }
 .solid-sec-btn{
     background-color:var(--sec-light-purple);
@@ -47,7 +53,11 @@
     height: 50px;
     color: var(--sec-dark-purple);
     border: 1px solid var(--sec-dark-purple);
+    background-color: var(--lightmode-bg-color);
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -60,9 +70,16 @@
     font-size: var(--cta-btn-font-size);
     font-weight: 500;
     margin-bottom: 40px;
+    cursor: pointer;
+    border-radius:var(--border-radius) ;
+    text-transform: capitalize;
+    outline: none;
+
+    
 }
 .code-snippets{
     margin-bottom: 20px; 
+    display: none;
 }
 
 /* next-btn  */
@@ -75,6 +92,8 @@
     font-size: var(--side-navbar-subheading);
     font-family: "sofia-pro";
     font-weight: 500;
+    text-transform: capitalize;
+
 }
 .next-btn:hover{
     background-color: var(--sec-lightest-purple);
