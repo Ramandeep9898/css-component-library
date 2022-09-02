@@ -1,0 +1,12 @@
+.color-sec {
+  display: flex;
+  gap: 10px;
+}
+.color-pri {
+  background-color: var(--primary-yellow);
+}
+.color-div {
+  width: 75px;
+  height: 50px;
+  border-radius: 8px;
+}
