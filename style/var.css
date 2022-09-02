@@ -15,11 +15,11 @@ html {
 }
 
 :root {
-  --primary-yellow: #f59e0b;
+  --primary-yellow: #eb980a;
   --primary-yellow-op01: rgba(255, 200, 80, 0.1);
   --lightmode-bg-color: #fff;
-  --sec-dark-purple: #3b294f;
-  --sec-light-purple: #4b336d;
+  --sec-dark-purple: #303030;
+  --sec-light-purple: #676767;
   --sec-lightest-purple: #5d437e;
   --icons-grey: #707070;
   --grid-dark-bg: rgb(187, 184, 184);

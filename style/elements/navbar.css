@@ -11,7 +11,7 @@
   justify-content: space-between;
 }
 .navbar-logo {
-  background-image: url(../../logo/lightning64px.png);
+  background-image: url(../../images/newLogo.png);
   background-repeat: no-repeat;
   width: 70px;
   height: 70px;
@@ -131,7 +131,7 @@
 }
 .component-navbar-item {
   font-size: var(--side-navbar-subheading);
-  font-weight: 200;
+  font-weight: 400;
   color: var(--sec-light-purple);
   text-transform: capitalize;
   margin-bottom: 8px;

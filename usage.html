@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="main.css">
     <script src="https://kit.fontawesome.com/86189ed851.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./prism/prism.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/github-dark.min.css" integrity="sha512-rO+olRTkcf304DQBxSWxln8JXCzTHlKnIdnMUwYvQa9/Jd4cQaNkItIUj6Z4nvW1dqK0SKXLbn9h4KwZTNtAyw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
 </head>
 <body>
@@ -107,7 +108,7 @@
             <a href="#">
                 <li class="component-navbar-item">usage</li>
             </a>
-            <div class="line-hori side mg-16"></div>
+            <!-- <div class="line-hori side mg-16"></div> -->
             
             <h1 class="component-navbar-heading">Components</h1>
             <ul>
@@ -159,52 +160,45 @@
 
          <!-- centre documentation -->
         <section class="component-doc">
-            <!-- <h1 class="component-doc-no">02</h1> -->
-            <h1 class="component-navbar-heading">usage</h1>
-            <h3 class="component-navbar-item">I'm an HTML-CSS based UI toolkit. <br>
+            <div id="usage">
+            <h1 class="component-doc-no">01</h1>
+            <h1 class="component-navbar-heading mg-top8">usage</h1>
+            <h3 class="component-navbar-item mg-top8">I'm a HTML-CSS based UI toolkit. <br>
                 
                 No need to start from scratch,
-                I'm a open-source component library that help you ship new features faster.</h3>
+                I'm a open-source component library that help you ship new features faster.
+                Instructions to import me in your HTML or CSS respectively:
+            
+            </h3>
+            <h1 class="component-navbar-heading mg-top16">HTML</h1>
 
-
-                Instructions to import Starling UI in your CSS or HTML:
-            <div id="standard-alert" class="component-avatar flex f-col ">
-               <div class="alert alert-success">hey! I'm simple success alert.</div>
-               <div class="alert alert-info">hey! I'm simple info alert.</div>
-               <div class="alert alert-error">hey! I'm simple error alert.</div>
-               <div class="alert alert-warning">hey! I'm simple warning alert.</div>
+            <div id="standard-alert" class="component-avatar flex f-col usage-link mg-top8">
+                &lt;link href="https://flashui.netlify.app/main.css" rel="stylesheet" /&gt;
             </div>
+            <h1 class="component-navbar-heading mg-top16">CSS</h1>
 
-            <!-- show-code-btn -->
-            <button class="show-code">show code &lt;/> </button>
-
-            <!-- code-snippet  -->
-            <div class="code-snippets">
-                <pre>
-                    
-                        <code class="language-html ">&lt;div class="alert alert-success"&gt;hey! I'm simple success alert.&lt;/div&gt;
-&lt;div class="alert alert-info"&gt;hey! I'm simple info alert.&lt;/div&gt;
-&lt;div class="alert alert-error"&gt;hey! I'm simple error alert.&lt;/div&gt;
-&lt;div class="alert alert-warning"&gt;hey! I'm simple warning alert.&lt;/div&gt; </code>
-                   
-                </pre>
-
+            <div id="standard-alert" class="component-avatar flex f-col usage-link mg-top8">
+                @import url("https://flashui.netlify.app/main.css");
             </div>
-
-            <div class="line-hori"></div>
-
-           <!-- perve-next btns  -->
-        <div class="next-prev-btns flex ">
-            <a href="avatar.html" >
-                <button class="next-btn ">
-                    <i class="fas fa-angle-left"></i> avatar
-                </button>
-            </a>
-            <a href="badge.html" >
-                <button class="next-btn ">badge <i class="fas fa-angle-right"></i>
-                </button>
-            </a>
         </div>
+
+            
+
+
+        
+            <!-- <pre><code class="language-html">
+                <script type="text/plain" class="language-markup">
+                 
+                    <link href="https://flashui.netlify.app/main.css" rel="stylesheet" />
+                 </script>
+
+            </code></pre>
+             -->
+
+
+            
+
+   
 
         
         </section>
@@ -213,13 +207,14 @@
         <section class="on-this-page flex f-end">
             <div class="on-this-page-bar">
             <h1 class="component-navbar-heading">on this page</h1>
-            <a href="#standard-avatar">
-                <li class="component-navbar-item">standard Avatar</li>
+            <a href="#usage">
+                <li class="component-navbar-item">usage</li>
             </a>
         </section>
 
     </section>  
     <script src="main.js"></script>
+    <script src="prism/prism.js"></script>
     <!-- highlight.js -->
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
     <script>hljs.highlightAll();</script>
